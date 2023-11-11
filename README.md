@@ -12,7 +12,9 @@
 ---
 <details>
   <summary>VPS常用命令</summary>
-	最新XUI一键脚本：
+	
+	
+ ### 最新XUI一键脚本：
 
 ```bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install.sh)```
 
