@@ -6,7 +6,8 @@
 - 💬  发现好玩的项目请推荐给我哦。                  
 - ❤   点击下方按钮联系我的Telegram。      
   
--  [![Telegram](https://img.shields.io/badge/-Telegram-red?color=white&logo=telegram&logoColor=black)](https://t.me/az667755)
+-  [![Telegram](https://img.shields.io/badge/-Telegram-red?color=white&logo=telegram&logoColor=)](https://t.me/az667755)
+-  [![Telegram](https://img.shields.io/badge/-Telegram-red?color=white&logo=telegram&logoColor=)](https://t.me/kexueshangwang88)
 
 ####  ***提示：点击三角图标展开内容***
 ---
