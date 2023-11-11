@@ -1,5 +1,5 @@
 
- - <img src="https://media0.giphy.com/media/pylpD8AoQCf3CQ1oO2/giphy.gif" width=30 height=30>  欢迎来到我的主页<br>
+ - <img src="https://media0.giphy.com/media/pylpD8AoQCf3CQ1oO2/giphy.gif" width=30 height=30>  欢迎来到我的页面<br>
 #
 - 🖥 这是我用于记录各种信息的页面。                                         
 - ❤   欢迎通过Telegram联系我。      
