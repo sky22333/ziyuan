@@ -545,10 +545,12 @@ bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/insta
 
 </details>
 
+---
+
 <details>
-  <summary>各类网站导航</summary>
+  <summary>网站收藏or服务器</summary>
     
-| 类型 | 名称 | 地址[^6]|
+| 类型 | 名称 | 地址[^6] |
 | :--- | :----: | :---: |
 | 服务器  | vmiss  |https://app.vmiss.com/aff.php?aff=931|
 | 服务器  | 艾云住宅  |https://iaclouds.com/cart.php|
@@ -582,4 +584,4 @@ bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/insta
 
  [^5]:  代理工具SSH工具下载
 
- [^6]：各类网站导航
+ [^6]: 网站收藏or服务器
