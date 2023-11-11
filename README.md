@@ -532,10 +532,10 @@ bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/insta
 | 安卓代理  | clash  |https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases|
 | Windows代理  | clash  |https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases|
 | Windows代理  | v2rayN  |https://github.com/2dust/v2rayN/releases|
+| 苹果代理  | 小火箭  |https://apps.apple.com/us/app/shadowrocket/id932747118|
 | 安卓SSH  | Termius汉化  |https://github.com/alongw/Termius-zh_CN/releases|
 | 安卓SSH  | termux |https://github.com/termux/termux-app/releases|
 | 安卓SSH  | serverbox  |https://github.com/lollipopkit/flutter_server_box/releases|
-| 苹果代理  | 小火箭  |https://apps.apple.com/us/app/shadowrocket/id932747118|
 | 电脑SSH  | tabby  |https://github.com/Eugeny/tabby/releases|
 | 电脑SSH  | WindTerm  |https://github.com/kingToolbox/WindTerm/releases|
 | 电脑SSH  | FinalShell  |https://www.hostbuf.com/t/988.html|
