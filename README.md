@@ -8,12 +8,14 @@
 -  频道 [![Telegram](https://img.shields.io/badge/-Telegram-red?color=white&logo=telegram&logoColor=)](https://t.me/kexueshangwang88)
 
 ####  ***提示：点击三角图标展开内容***
+
+
 ---
 <details>
   <summary>VPS常用命令</summary>
 	
 	
- ### 最新XUI一键脚本：
+ ### 最新XUI一键脚本[^1]：
 
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install.sh)
@@ -157,7 +159,7 @@ sudo apt update&&sudo apt install -y curl&& sudo bash -c "$(curl -Lfo- https://r
 <details>
   <summary>国内VPS使用代理教程</summary>
   
-###  国内VPS使用代理的方法，适用于无法拉取github项目
+###  国内VPS使用代理的方法，适用于无法拉取github项目[^2]
 
 ###  方法一：
 
@@ -236,7 +238,7 @@ sudo apt update&&sudo apt install -y curl&& sudo bash -c "$(curl -Lfo- https://r
 
 
 
-### 一键脚本（ubuntu系统）
+### 一键脚本（ubuntu系统）[^3]
 
 请创建文件夹并放入需要推流的mp4视频
 
@@ -336,7 +338,7 @@ ffmpeg -re -stream_loop -1 -f concat -safe 0 -i <(find /home/vo -name "*.mp4" -e
 bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install.sh)
 ```
 
-###  配置二级代理
+###  配置二级代理[^4]
 ```
 {
   "api": {
@@ -528,7 +530,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/insta
 
   
   
-  | 类型 | 名称 | 下载地址 |
+  | 类型 | 名称 | 下载地址[^5] |
 | :--- | :----: | :---: |
 | 安卓代理  | v2rayNG  |https://github.com/2dust/v2rayNG/releases|
 | 安卓代理  | clash  |https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases|
@@ -543,3 +545,17 @@ bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/insta
 | 电脑SSH  | FinalShell  |https://www.hostbuf.com/t/988.html|
 
 </details>
+
+
+
+
+
+ [^1]: VPS常用命令
+
+ [^2]: 国内VPS使用代理
+
+ [^3]: 无人直播推流脚本
+
+ [^4]:  xui配置二级代理
+
+ [^5]:  代理工具SSH工具下载
