@@ -572,7 +572,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/insta
 
 </details>
 
-
+---
 
  [^1]: VPS常用命令
 
