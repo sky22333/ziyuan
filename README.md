@@ -1,9 +1,9 @@
 
  - <img src="https://media0.giphy.com/media/pylpD8AoQCf3CQ1oO2/giphy.gif" width=30 height=30>  欢迎来到我的页面<br>
 #
-- 🖥 这是我用于记录各种信息的页面。                                         
-- ❤   可以点击下方Telegram联系我。      
-  
+- 🖥 这是我用于记录各种信息的页面。
+- ✨ 想了解更多信息可以点击上方对应文件。                                   
+- ❤   可以点击下方Telegram联系我。 
 -  个人 [![Telegram](https://img.shields.io/badge/-Telegram-red?color=white&logo=telegram&logoColor=)](https://t.me/az667755)
 -  频道 [![Telegram](https://img.shields.io/badge/-Telegram-red?color=white&logo=telegram&logoColor=)](https://t.me/kexueshangwang88)
 
