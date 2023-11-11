@@ -520,3 +520,24 @@ bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/insta
 
  
 </details>
+
+---
+
+<details>
+  <summary>代理工具SSH工具下载</summary>
+
+  | 类型 | 名称 | 下载地址 |
+| :--- | :----: | :---: |
+| 安卓  | v2rayNG  |https://github.com/2dust/v2rayNG/releases|
+| 安卓  | clash  |https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases|
+| Windows  | clash  |https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases|
+| Windows  | v2rayN  |https://github.com/2dust/v2rayN/releases|
+| 安卓SSH工具  | Termius汉化  |https://github.com/alongw/Termius-zh_CN/releases|
+| 安卓SSH工具  | termux |https://github.com/termux/termux-app/releases|
+| 安卓SSH工具  | serverbox  |https://github.com/lollipopkit/flutter_server_box/releases|
+| 苹果  | 小火箭  |https://apps.apple.com/us/app/shadowrocket/id932747118|
+| 电脑SSH工具  | tabby  |https://github.com/Eugeny/tabby/releases|
+| 电脑SSH工具  | WindTerm  |https://github.com/kingToolbox/WindTerm/releases|
+| 电脑SSH工具  | FinalShell  |https://www.hostbuf.com/t/988.html|
+
+</details>
