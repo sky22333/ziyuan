@@ -7,8 +7,7 @@
 -  个人 [![Telegram](https://img.shields.io/badge/-Telegram-red?color=white&logo=telegram&logoColor=)](https://t.me/az667755)
 -  频道 [![Telegram](https://img.shields.io/badge/-Telegram-red?color=white&logo=telegram&logoColor=)](https://t.me/kexueshangwang88)
 
-####  ***提示：点击三角图标展开内容***
-
+####   提示：点击三角图标展开内容，页面底部有直达按钮
 
 ---
 <details>
