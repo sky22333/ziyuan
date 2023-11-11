@@ -157,7 +157,8 @@ sudo apt update&&sudo apt install -y curl&& sudo bash -c "$(curl -Lfo- https://r
 
 <details>
   <summary>国内VPS使用代理教程</summary>
-  #  国内VPS使用代理的方法，适用于无法拉取github项目
+  
+###  国内VPS使用代理的方法，适用于无法拉取github项目
 
 ###  方法一：
 
