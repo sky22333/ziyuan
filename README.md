@@ -554,8 +554,8 @@ bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/insta
 | :--- | :----: | :---: |
 | 服务器  | vmiss  |https://app.vmiss.com/aff.php?aff=931|
 | 服务器  | 艾云住宅  |https://iaclouds.com/cart.php|
-| 代理IP  | kookeey  |https://kookeey.com|
-| 代理IP | ip2world  |https://www.ip2world.com|
+| SK5代理  | kookeey  |https://kookeey.com|
+| SK5代理 | ip2world  |https://www.ip2world.com|
 | 服务器  | evoxt住宅  |https://evoxt.com/pricing|
 | 服务器 | vultr  |https://www.vultr.com/?ref=9550943|
 | 服务器  | 美国无线流量  |https://my.frantech.ca/cart.php|
