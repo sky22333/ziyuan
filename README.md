@@ -545,7 +545,30 @@ bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/insta
 
 </details>
 
+<details>
+  <summary>各类网站导航</summary>
+    
+| 类型 | 名称 | 地址[^6]|
+| :--- | :----: | :---: |
+| 服务器  | vmiss  |https://app.vmiss.com/aff.php?aff=931|
+| 服务器  | 艾云住宅  |https://iaclouds.com/cart.php|
+| 代理IP  | kookeey  |https://kookeey.com|
+| 代理IP | ip2world  |https://www.ip2world.com|
+| 服务器  | evoxt住宅  |https://evoxt.com/pricing|
+| 服务器 | vultr  |https://www.vultr.com/?ref=9550943|
+| 服务器  | 美国无线流量  |https://my.frantech.ca/cart.php|
+| 服务器  | 越南家宽  |https://my.cloudfly.vn/cloud/server|
+| 服务器  | gigsgigs  |https://clientarea.gigsgigscloud.com|
+| 服务器  | 朝暮云 地区多  |https://www.zhaomu.com/partner/13046|
+| 服务器  | CC一刀机  |https://cloudcone.com|
+| 服务器  | RN二刀机  |https://my.racknerd.com/aff.php?aff=9465|
+| 服务器  | 野草云建站机  |https://www.yecaoyun.com|
+| 服务器  | 便宜建站机  |https://www.anclouds.com|
+| 服务器  | hostvds一刀机  |https://hostvds.com|
+| 涩涩  | 网站合集  |https://theporndude.com/zh|
+| 涩涩  | AI画图  |https://pornpen.ai|
 
+</details>
 
 
 
@@ -558,3 +581,5 @@ bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/insta
  [^4]:  xui配置二级代理
 
  [^5]:  代理工具SSH工具下载
+
+ [^6]：各类网站导航
