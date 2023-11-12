@@ -307,7 +307,7 @@ ffmpeg -re -stream_loop -1 -f concat -safe 0 -i <(find /home/vo -name "*.mp4" -e
 ```
 
 
-请将 ```/home/vo``` 替换为你实际的文件夹路径
+请将 ```/home/vo``` 替换为你实际的视频文件夹路径
 
 请将```rtmp://server/live/stream``` 替换为你的实际推流地址和串流密钥。
 
