@@ -570,6 +570,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/insta
 | 服务器  | hostvds一刀机  |https://hostvds.com|
 | 涩涩  | 网站合集  |https://theporndude.com/zh|
 | 涩涩  | AI画图  |https://pornpen.ai|
+| 素材  | 图标素材  |https://aigei.com|
 
 </details>
 
