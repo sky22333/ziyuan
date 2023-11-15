@@ -531,12 +531,12 @@ bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/insta
   
   | 类型 | 名称 | 下载地址[^5] |
 | :--- | :----: | :---: |
-| 安卓代理  | v2rayNG  |https://github.com/2dust/v2rayNG/releases|
-| 安卓代理  | clash  |https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases|
-| Windows代理  | clash  |https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases|
-| Windows代理  | v2rayN  |https://github.com/2dust/v2rayN/releases|
-| 苹果代理  | 小火箭  |https://apps.apple.com/us/app/shadowrocket/id932747118|
-| mac代理  | v2rayU  |https://github.com/yanue/V2rayU/releases|
+| 安卓代理软件  | v2rayNG  |https://github.com/2dust/v2rayNG/releases|
+| 安卓代理软件  | clash  |https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases|
+| Windows代理软件  | clash  |https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases|
+| Windows代理软件  | v2rayN  |https://github.com/2dust/v2rayN/releases|
+| ios代理软件  | 小火箭  |https://apps.apple.com/us/app/shadowrocket/id932747118|
+| mac代理软件  | v2rayU  |https://github.com/yanue/V2rayU/releases|
 | 安卓SSH  | Termius汉化  |https://github.com/alongw/Termius-zh_CN/releases|
 | 安卓SSH  | termux |https://github.com/termux/termux-app/releases|
 | 安卓SSH  | serverbox  |https://github.com/lollipopkit/flutter_server_box/releases|
