@@ -145,8 +145,15 @@ sudo apt update&&sudo apt install -y curl&& sudo bash -c "$(curl -Lfo- https://r
 
 ###  查看电脑wifi密码CMD命令
 
+查看已连接过的wifi：
+
 ```netsh wlan show profile```
 
+查看密码：
+
+```netsh wlan show profile name="WiFi名称" key=clear```
+
+打印到C盘：
 
 ```netsh wlan export profile folder=C:\ key=clear```
 
