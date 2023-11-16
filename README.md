@@ -89,6 +89,13 @@ wget -N --no-check-certificate https://github.com/taotao1058/rootvps/raw/main/ro
 
 ```yum install curl wget git zip tar -y``` 
 
+###  开启虚拟内存：
+
+```
+sudo fallocate -l 1G /swapfile && sudo chmod 700 /swapfile && sudo mkswap /swapfile && sudo swapon /swapfile && echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
+```
+
+
 ###  防火墙
 
 ```firewall-cmd --state```                             # 查看防火墙状态    
