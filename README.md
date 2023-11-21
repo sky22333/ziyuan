@@ -20,6 +20,16 @@
 bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install.sh)
 ```
 
+
+
+###  一键安装docker：
+
+```
+curl -fsSL https://get.docker.com | sh
+```
+
+
+
 ###  VPS开启root登录并且修改密码：
 
 一键脚本
