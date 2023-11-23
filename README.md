@@ -586,7 +586,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/insta
 | 服务器  | 美国无线流量  |https://my.frantech.ca/cart.php|
 | 服务器  | 越南家宽  |https://my.cloudfly.vn/cloud/server|
 | 服务器  | gigsgigs  |https://clientarea.gigsgigscloud.com|
-| 服务器  | 朝暮云 地区多  |https://www.zhaomu.com/partner/13046|
+| 服务器  | 朝暮云 地区多  |https://zhaomu.com|
 | 服务器  | CC一刀机  |https://cloudcone.com|
 | 服务器  | RN二刀机  |https://my.racknerd.com/aff.php?aff=9465|
 | 服务器  | 野草云建站机  |https://www.yecaoyun.com|
