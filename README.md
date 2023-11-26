@@ -597,6 +597,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/insta
 | 涩涩  | 网站合集  |https://theporndude.com/zh|
 | 涩涩  | AI画图  |https://pornpen.ai|
 | 素材  | 图标素材  |https://aigei.com|
+| 礼品卡  | Pockyt Shop |https://shop.pockyt.io/pc/brands/all|
 
 </details>
 
