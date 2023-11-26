@@ -567,6 +567,8 @@ bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/insta
 | 电脑SSH  | tabby  |https://github.com/Eugeny/tabby/releases|
 | 电脑SSH  | WindTerm  |https://github.com/kingToolbox/WindTerm/releases|
 | 电脑SSH  | FinalShell  |https://www.hostbuf.com/t/988.html|
+| ios SSH  | ServerBox  |https://apps.apple.com/us/app/serverbox-status-tools/id1586449703|
+| ios SSH  | Termius |https://apps.apple.com/us/app/termius-terminal-ssh-client/id549039908|
 
 </details>
 
