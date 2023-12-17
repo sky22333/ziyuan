@@ -14,13 +14,13 @@
   <summary>VPS常用命令</summary>
 	
 	
- ### 最新XUI一键脚本[^1]：
+ ### xui面板[^1]：
 
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install.sh)
 ```
 
-### 3x-ui
+## 3x-ui面板
 
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
