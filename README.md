@@ -14,7 +14,7 @@
   <summary>VPS常用命令</summary>
 	
 	
- ### xui面板[^1]：
+ ### xui面板[^1]
 
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install.sh)
@@ -27,7 +27,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.
 ```
 
 
-###  一键wrap：
+###  一键wrap
 
 ```
 wget -N https://gitlab.com/fscarmen/warp/-/raw/main/menu.sh && bash menu.sh [option] [lisence/url/token]
@@ -37,7 +37,7 @@ wget -N https://gitlab.com/fscarmen/warp/-/raw/main/menu.sh && bash menu.sh [opt
 warp [option] [lisence]
 ```
 
-###  一键安装docker：
+###  一键安装docker
 
 ```
 curl -fsSL https://get.docker.com | sh
