@@ -101,7 +101,7 @@ wget -N --no-check-certificate https://github.com/taotao1058/rootvps/raw/main/ro
 
 ```apt update -y``` 
 
-```apt install curl wget git zip tar -y```
+```apt install curl wget git zip tar iptables -y```
 
 
 
@@ -112,7 +112,7 @@ wget -N --no-check-certificate https://github.com/taotao1058/rootvps/raw/main/ro
 
 ```yum update -y``` 
 
-```yum install curl wget git zip tar -y``` 
+```yum install curl wget git zip tar iptables -y``` 
 
 ###  开启虚拟内存：
 
