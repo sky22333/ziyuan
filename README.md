@@ -10,6 +10,7 @@
 ####   提示：点击三角图标展开内容，页面底部有直达按钮
 
 ---
+
 <details>
   <summary>VPS常用命令</summary>
 	
@@ -106,12 +107,12 @@ bash <(curl -L -s check.unlock.media)
  
 ```
 bash <(curl -L -s check.unlock.media) -M 4
-```   # 只检测IPv4结果
+```
 
  
 ```
 bash <(curl -L -s check.unlock.media) -M 6
-```   # 只检测IPv6结果
+```
 
 ###  查看端口占用：
 
@@ -167,7 +168,7 @@ wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
 
 ```
 sysctl net.ipv4.tcp_congestion_control
-```          # 检查是否开启
+```
 
 
 
