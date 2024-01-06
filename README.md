@@ -43,7 +43,16 @@ warp [option] [lisence]
 curl -fsSL https://get.docker.com | sh
 ```
 
+###  查看系统内核
 
+```dpkg --print-architecture```
+
+
+```uname -a```
+
+####  查看系统版本
+
+```lsb_release -a```
 
 ###  VPS开启root登录并且修改密码：
 
@@ -53,6 +62,20 @@ curl -fsSL https://get.docker.com | sh
 wget -N --no-check-certificate https://github.com/taotao1058/rootvps/raw/main/rootvps && bash rootvps
 ```
 
+###  安装依赖：
+ Debian/Ubuntu 命令：
+ 
+
+```apt update``` 
+
+```apt install curl wget git zip tar iptables -y```
+
+
+ CentOS 命令：
+
+```yum update``` 
+
+```yum install curl wget git zip tar iptables -y``` 
 
 ###  一键测试路由回程：
 
@@ -95,24 +118,6 @@ wget -N --no-check-certificate https://github.com/taotao1058/rootvps/raw/main/ro
 
 ```mv shell.txt shell.sh```
 
-###  安装依赖：
- Debian/Ubuntu 命令：
- 
-
-```apt update -y``` 
-
-```apt install curl wget git zip tar iptables -y```
-
-
-
-```apt-get install -y wget && apt-get install sudo```
-
-
- CentOS 命令：
-
-```yum update -y``` 
-
-```yum install curl wget git zip tar iptables -y``` 
 
 ###  开启虚拟内存：
 
@@ -141,12 +146,6 @@ wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
 
 
 
-###  查看系统内核 
-
-```dpkg --print-architecture```
-
-
-```uname -a```
 
 
 ###  科技lion的VPS工具箱
