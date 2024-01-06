@@ -115,9 +115,18 @@ bash <(curl -L -s check.unlock.media) -M 6
 ```
 
 ###  查看端口占用：
-
+```
+sudo lsof -i -P -n
+```
+```
+ss -tuln
+```
 ```
 lsof -i:端口号
+```
+#### 释放端口
+```
+kill PID数字
 ```
 
 ###  放行端口：
