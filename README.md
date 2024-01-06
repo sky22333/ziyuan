@@ -133,9 +133,7 @@ kill PID数字
 
 ```sudo ufw allow 端口号```
 
-```sudo ufw allow 端口号/协议```
-
-```sudo ufw allow 起始端口:结束端口/协议```
+```sudo ufw allow 起始端口:结束端口```
 
 ```sudo ufw enable```   #  重启ufw防火墙
 
