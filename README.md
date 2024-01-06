@@ -44,15 +44,20 @@ curl -fsSL https://get.docker.com | sh
 ```
 
 ###  查看系统内核
+```
+dpkg --print-architecture
+```
 
-```dpkg --print-architecture```
 
-
-```uname -a```
+```
+uname -a
+```
 
 ####  查看系统版本
 
-```lsb_release -a```
+```
+lsb_release -a
+```
 
 ###  VPS开启root登录并且修改密码：
 
@@ -66,35 +71,53 @@ wget -N --no-check-certificate https://github.com/taotao1058/rootvps/raw/main/ro
  Debian/Ubuntu 命令：
  
 
-```apt update``` 
+```
+apt update
+``` 
 
-```apt install curl wget git zip tar iptables -y```
+```
+apt install curl wget git zip tar iptables -y
+```
 
 
  CentOS 命令：
 
-```yum update``` 
+```
+yum update
+``` 
 
-```yum install curl wget git zip tar iptables -y``` 
+```
+yum install curl wget git zip tar iptables -y
+``` 
 
 ###  一键测试路由回程：
 
-```wget -qO- git.io/besttrace | bash```
+```
+wget -qO- git.io/besttrace | bash
+```
 
 
 ###  一键测试流媒体解锁：
 
-```bash <(curl -L -s check.unlock.media)```
+```
+bash <(curl -L -s check.unlock.media)
+```
 
  
-```bash <(curl -L -s check.unlock.media) -M 4```   # 只检测IPv4结果
+```
+bash <(curl -L -s check.unlock.media) -M 4
+```   # 只检测IPv4结果
 
  
-```bash <(curl -L -s check.unlock.media) -M 6```   # 只检测IPv6结果
+```
+bash <(curl -L -s check.unlock.media) -M 6
+```   # 只检测IPv6结果
 
 ###  查看端口占用：
 
-```lsof -i:端口号```
+```
+lsof -i:端口号
+```
 
 ###  放行端口：
 
@@ -142,7 +165,9 @@ sudo fallocate -l 1G /swapfile && sudo chmod 700 /swapfile && sudo mkswap /swapf
 wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
 ```
 
-```sysctl net.ipv4.tcp_congestion_control```          # 检查是否开启
+```
+sysctl net.ipv4.tcp_congestion_control
+```          # 检查是否开启
 
 
 
@@ -178,15 +203,21 @@ sudo apt update&&sudo apt install -y curl&& sudo bash -c "$(curl -Lfo- https://r
 
 查看已连接过的wifi：
 
-```netsh wlan show profile```
+```
+netsh wlan show profile
+```
 
 查看密码：
 
-```netsh wlan show profile name="WiFi名称" key=clear```
+```
+netsh wlan show profile name="WiFi名称" key=clear
+```
 
 打印到C盘：
 
-```netsh wlan export profile folder=C:\ key=clear```
+```
+netsh wlan export profile folder=C:\ key=clear
+```
 
 
 </details>
