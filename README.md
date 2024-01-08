@@ -84,7 +84,7 @@ apt install curl wget git zip tar iptables -y
  CentOS 命令：
 
 ```
-yum update
+yum update -y
 ``` 
 
 ```
