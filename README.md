@@ -77,7 +77,7 @@ apt update
 ``` 
 
 ```
-apt install curl wget git zip tar iptables -y
+apt install curl wget git zip tar iptables lsof -y
 ```
 
 
@@ -88,7 +88,7 @@ yum update -y
 ``` 
 
 ```
-yum install curl wget git zip tar iptables -y
+yum install curl wget git zip tar iptables lsof -y
 ``` 
 
 ###  一键测试路由回程：
