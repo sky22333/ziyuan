@@ -15,12 +15,13 @@
   <summary>VPS常用命令</summary>
 	
 	
- ### 最新xui[^1]
+ ### 3xui[^1]
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/alireza0/x-ui/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
 ```
 
+[项目地址](https://github.com/MHSanaei/3x-ui)
 
 ###  一键wrap
 
