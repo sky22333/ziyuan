@@ -3,10 +3,6 @@
 #
 - 🖥 这是我用于记录各种信息的页面。
 - ✨ 想了解更多信息可以点击上方对应文件。                                   
-- ❤   可以点击下方Telegram联系我。 
--  个人 [![Telegram](https://img.shields.io/badge/-Telegram-red?color=white&logo=telegram&logoColor=)](https://t.me/az667755)
--  频道 [![Telegram](https://img.shields.io/badge/-Telegram-red?color=white&logo=telegram&logoColor=)](https://t.me/kexueshangwang88)
-
 ####   提示：点击三角图标展开内容，页面底部有直达按钮
 
 ---
