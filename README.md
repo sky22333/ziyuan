@@ -11,7 +11,7 @@
   <summary>VPS常用命令</summary>
 	
 	
- ### 3xui[^1]
+ ### 3xui
 
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
@@ -257,7 +257,7 @@ netsh wlan export profile folder=C:\ key=clear
 
   
   
-  | 类型 | 名称 | 下载地址[^5] |
+  | 类型 | 名称 | 下载地址 |
 | :--- | :----: | :---: |
 | 安卓  | v2rayNG  |https://github.com/2dust/v2rayNG/releases|
 | 安卓  | clash  |https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases|
@@ -281,20 +281,20 @@ netsh wlan export profile folder=C:\ key=clear
 <details>
   <summary>网站收藏or服务器</summary>
     
-| 类型 | 名称 | 地址[^6] |
+| 类型 | 名称 | 地址 |
 | :--- | :----: | :---: |
-| 服务器  | vmiss  |https://app.vmiss.com/aff.php?aff=931|
+| 服务器  | vmiss  |https://app.vmiss.com|
 | 服务器  | 艾云住宅  |https://iaclouds.com/cart.php|
 | SK5代理  | kookeey  |https://kookeey.com|
 | SK5代理 | ip2world  |https://www.ip2world.com|
 | 服务器  | evoxt住宅  |https://evoxt.com/pricing|
-| 服务器 | vultr  |https://www.vultr.com/?ref=9550943|
+| 服务器 | vultr  |https://www.vultr.com|
 | 服务器  | 美国无线流量  |https://my.frantech.ca/cart.php|
 | 服务器  | 越南家宽  |https://my.cloudfly.vn/cloud/server|
 | 服务器  | gigsgigs  |https://clientarea.gigsgigscloud.com|
 | 服务器  | 朝暮云 地区多  |https://zhaomu.com|
 | 服务器  | CC一刀机  |https://cloudcone.com|
-| 服务器  | RN二刀机  |https://my.racknerd.com/aff.php?aff=9465|
+| 服务器  | RN二刀机  |https://my.racknerd.com|
 | 服务器  | 野草云建站机  |https://www.yecaoyun.com|
 | 服务器  | 便宜建站机  |https://www.anclouds.com|
 | 服务器  | hostvds一刀机  |https://hostvds.com|
@@ -309,14 +309,3 @@ netsh wlan export profile folder=C:\ key=clear
 
 ---
 
- [^1]: VPS常用命令
-
- [^2]: 国内VPS使用代理
-
- [^3]: 无人直播推流脚本
-
- [^4]:  xui配置二级代理
-
- [^5]:  代理工具SSH工具下载
-
- [^6]: 网站收藏or服务器
