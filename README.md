@@ -197,6 +197,16 @@ wget https://raw.githubusercontent.com/TeamPGM/PagerMaid-Pyro/development/utils/
 sudo apt update&&sudo apt install -y curl&& sudo bash -c "$(curl -Lfo- https://raw.githubusercontent.com/hiddify/hiddify-config/main/common/download_install.sh)"
 ```
 
+### 久激活 Windows 系统和 Office 软件
+
+在 Windows 8.1/10/11 上，右键单击 Windows 开始菜单并 选择 PowerShell 或终端（非 CMD）
+
+```
+irm https://massgrave.dev/get | iex
+```
+
+稍微等待一下，他会自动适配，并激活您的系统，当出现 Successful 的时候说明系统已经激活成功了
+
 
 ###  查看电脑wifi密码CMD命令
 
