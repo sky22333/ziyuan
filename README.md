@@ -260,11 +260,12 @@ netsh wlan export profile folder=C:\ key=clear
   | 类型 | 名称 | 下载地址 |
 | :--- | :----: | :---: |
 | 安卓  | v2rayNG  |https://github.com/2dust/v2rayNG/releases|
-| 安卓  | clash  |https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases|
-| Windows  | clash  |https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases|
+| 安卓  | clash-meta  |https://github.com/MetaCubeX/ClashMetaForAndroid/releases|
+| Windows  | clash-verge-rev  |https://github.com/clash-verge-rev/clash-verge-rev/releases|
 | Windows  | v2rayN  |https://github.com/2dust/v2rayN/releases|
 | ios  | 小火箭  |https://apps.apple.com/us/app/shadowrocket/id932747118|
 | mac  | v2rayU  |https://github.com/yanue/V2rayU/releases|
+| mac  | clash-verge-rev  |https://github.com/clash-verge-rev/clash-verge-rev/releases|
 | 安卓SSH  | Termius汉化  |https://github.com/alongw/Termius-zh_CN/releases|
 | 安卓SSH  | termux |https://github.com/termux/termux-app/releases|
 | 安卓SSH  | serverbox  |https://github.com/lollipopkit/flutter_server_box/releases|
