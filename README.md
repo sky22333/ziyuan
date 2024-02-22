@@ -308,6 +308,8 @@ netsh wlan export profile folder=C:\ key=clear
 | 学习  | 编程菜鸟教程  |https://www.runoob.com|
 | api接口  | 图片和文字  |https://api.aixiaowai.cn|
 | api接口  | 图片和文字  |https://developer.hitokoto.cn|
+| 图床  | 动漫和动画  |https://mikupic.com|
+| 图床  | 国内高速  |https://www.freeimg.cn|
 
 </details>
 
