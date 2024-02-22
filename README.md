@@ -41,6 +41,7 @@ dpkg --print-architecture
 ```
 
 
+
 ```
 uname -a
 ```
