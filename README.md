@@ -315,6 +315,8 @@ netsh wlan export profile folder=C:\ key=clear
 | 资源采集  | 影视  |http://lzizy.net|
 | 资源采集  | X站  |https://apilj.com|
 | 资源采集  | X站  |https://dadizy11.com|
+| 安卓软件  | APK  |https://apkpure.net|
+| 安卓软件  | APK  |https://www.apkmirror.com|
 
 </details>
 
