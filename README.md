@@ -312,6 +312,7 @@ netsh wlan export profile folder=C:\ key=clear
 | api接口  | 诗词  |https://www.jinrishici.com|
 | 图床  | 动漫和动画  |https://mikupic.com|
 | 图床  | 国内高速  |https://www.freeimg.cn|
+| 网盘  | 网盘资源  |https://wpzy.cc|
 | 资源采集  | 影视  |https://hongniuziyuan.com|
 | 资源采集  | 影视  |http://lzizy.net|
 | 资源采集  | X站  |https://apilj.com|
