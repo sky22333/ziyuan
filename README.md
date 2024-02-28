@@ -336,7 +336,7 @@ netsh wlan export profile folder=C:\ key=clear
 curl -fsSL https://raw.githubusercontent.com/filebrowser/get/master/get.sh | bash
 ```
 
-创建`config.json`配置文件：
+`home`目录下创建`config.json`配置文件：
 
 ```
 {
