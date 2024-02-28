@@ -364,6 +364,8 @@ curl -fsSL https://raw.githubusercontent.com/filebrowser/get/master/get.sh | bas
 filebrowser --config /home/config.json
 ```
 
+设置里增加文件管理命令`unzip tar chmod`
+
 </details>
 
 ---
