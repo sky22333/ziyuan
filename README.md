@@ -344,7 +344,7 @@ curl -fsSL https://raw.githubusercontent.com/filebrowser/get/master/get.sh | bas
 {
   "address": "0.0.0.0",
   "port": 7777,
-  "log": "stdout",
+  "log": "",
   "database": "/home/filebrowser.db",
   "root": "/",
   "auth": true,
