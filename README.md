@@ -354,7 +354,8 @@ curl -fsSL https://raw.githubusercontent.com/filebrowser/get/master/get.sh | bas
       "password": "admin",
       "hash_method": "bcrypt"
     }
-  ]
+  ],
+  "commands": []
 }
 ```
 
