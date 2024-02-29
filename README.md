@@ -262,8 +262,8 @@ netsh wlan export profile folder=C:\ key=clear
 | :--- | :----: | :---: |
 | 安卓代理  | v2rayNG  |https://github.com/2dust/v2rayNG/releases|
 | 安卓代理  | clash-meta  |https://github.com/MetaCubeX/ClashMetaForAndroid/releases|
-| Windows代理  | clash-verge-rev  |https://github.com/clash-verge-rev/clash-verge-rev/releases|
-| Windows代理  | v2rayN  |https://github.com/2dust/v2rayN/releases|
+| Win代理  | clash-verge-rev  |https://github.com/clash-verge-rev/clash-verge-rev/releases|
+| Win代理  | v2rayN  |https://github.com/2dust/v2rayN/releases|
 | ios代理  | 小火箭  |https://apps.apple.com/us/app/shadowrocket/id932747118|
 | mac代理  | v2rayU  |https://github.com/yanue/V2rayU/releases|
 | mac代理  | clash-verge-rev  |https://github.com/clash-verge-rev/clash-verge-rev/releases|
@@ -276,8 +276,8 @@ netsh wlan export profile folder=C:\ key=clear
 | 电脑SSH  | WindTerm  |https://github.com/kingToolbox/WindTerm/releases|
 | 电脑SSH  | FinalShell  |https://www.hostbuf.com/t/988.html|
 | 电脑code  | Visual Studio Code  |https://code.visualstudio.com|
-| ios SSH  | ServerBox  |https://apps.apple.com/us/app/serverbox-status-tools/id1586449703|
-| ios SSH  | Termius |https://apps.apple.com/us/app/termius-terminal-ssh-client/id549039908|
+| IOS SSH  | ServerBox  |https://apps.apple.com/us/app/serverbox-status-tools/id1586449703|
+| IOS SSH  | Termius |https://apps.apple.com/us/app/termius-terminal-ssh-client/id549039908|
 
 </details>
 
