@@ -270,6 +270,7 @@ netsh wlan export profile folder=C:\ key=clear
 | 安卓SSH  | Termius汉化  |https://github.com/alongw/Termius-zh_CN/releases|
 | 安卓SSH  | termux |https://github.com/termux/termux-app/releases|
 | 安卓SSH  | serverbox  |https://github.com/lollipopkit/flutter_server_box/releases|
+| 安卓代码编辑器  | Acode |https://acode.app|
 | 电脑SSH  | tabby  |https://github.com/Eugeny/tabby/releases|
 | 电脑SSH  | WindTerm  |https://github.com/kingToolbox/WindTerm/releases|
 | 电脑SSH  | FinalShell  |https://www.hostbuf.com/t/988.html|
