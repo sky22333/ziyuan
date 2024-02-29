@@ -276,8 +276,8 @@ netsh wlan export profile folder=C:\ key=clear
 | 电脑SSH  | WindTerm  |https://github.com/kingToolbox/WindTerm/releases|
 | 电脑SSH  | FinalShell  |https://www.hostbuf.com/t/988.html|
 | 电脑code  | Visual Studio Code  |https://code.visualstudio.com|
-| IOS SSH  | ServerBox  |https://apps.apple.com/us/app/serverbox-status-tools/id1586449703|
-| IOS SSH  | Termius |https://apps.apple.com/us/app/termius-terminal-ssh-client/id549039908|
+| ios SSH  | ServerBox  |https://apps.apple.com/us/app/serverbox-status-tools/id1586449703|
+| ios SSH  | Termius |https://apps.apple.com/us/app/termius-terminal-ssh-client/id549039908|
 
 </details>
 
