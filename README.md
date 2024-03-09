@@ -309,6 +309,7 @@ netsh wlan export profile folder=C:\ key=clear
 | 礼品卡  | Pockyt Shop |https://shop.pockyt.io/pc/brands/all|
 | 网络测试  | ipv6测试  |https://test-ipv6.com|
 | 渗透  | dns和端口扫描  |https://search.censys.io|
+| 渗透  | dns和端口扫描  |https://www.criminalip.io|
 | 学习  | 编程菜鸟教程  |https://www.runoob.com|
 | api接口  | 图片和文字  |https://api.aixiaowai.cn|
 | api接口  | 图片和文字  |https://developer.hitokoto.cn|
