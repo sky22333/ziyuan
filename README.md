@@ -265,7 +265,9 @@ netsh wlan export profile folder=C:\ key=clear
 | Win代理  | clash-verge-rev  |https://github.com/clash-verge-rev/clash-verge-rev/releases|
 | Win代理  | v2rayN  |https://github.com/2dust/v2rayN/releases|
 | ios代理  | 小火箭  |https://apps.apple.com/us/app/shadowrocket/id932747118|
+| ios代理  | V2Box  |https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690|
 | mac代理  | v2rayU  |https://github.com/yanue/V2rayU/releases|
+| mac代理  | V2Box  |https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690|
 | mac代理  | clash-verge-rev  |https://github.com/clash-verge-rev/clash-verge-rev/releases|
 | Liunx代理  | v2rayA  |https://v2raya.org/docs/prologue/introduction|
 | 安卓SSH  | Termius汉化  |https://github.com/alongw/Termius-zh_CN/releases|
