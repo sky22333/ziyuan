@@ -409,7 +409,7 @@ warp-cli registration new
 开启代理模式：
 
 ```
-warp-cli set-mode proxy
+warp-cli mode proxy
 ```
 
 开机自启代理：
