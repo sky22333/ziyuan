@@ -382,7 +382,7 @@ filebrowser --config /home/config.json
 
 
 <details>
-  <summary>服务器配置wrap</summary>
+  <summary>Liunx配置wrap</summary>
     
 
 
