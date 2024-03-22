@@ -385,6 +385,7 @@ filebrowser --config /home/config.json
   <summary>服务器配置wrap</summary>
     
 debian系统安装：
+
 [其他系统安装](https://pkg.cloudflareclient.com/)
 ```
 curl -fsSL https://pkg.cloudflareclient.com/pubkey.gpg | sudo gpg --yes --dearmor --output /usr/share/keyrings/cloudflare-warp-archive-keyring.gpg
@@ -395,16 +396,19 @@ echo "deb [signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] ht
 ```
 sudo apt-get update && sudo apt-get install cloudflare-warp
 ```
+
 注册客户端：
+
 ```
 warp-cli registration new
 ```
 
 开启代理模式：
+
 ```
 warp-cli set-mode proxy
 ```
-```
+
 开机自启代理：
 ```
 warp-cli enable-always-on
