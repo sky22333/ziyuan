@@ -413,6 +413,8 @@ warp-cli mode proxy
 ```
 
 启动wrap：
+
+执行此命令前必须`开启代理模式`否则机器可能失联
 ```
 warp-cli connect
 ```
