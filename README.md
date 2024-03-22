@@ -13,8 +13,6 @@
 	
  ### 3xui
 
-xui有时候只监听ipv6造成面板进不去，可以先禁用v6再重新安装：`sudo sysctl -w net.ipv6.conf.eth0.disable_ipv6=1`
-
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
 ```
