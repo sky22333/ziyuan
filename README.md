@@ -422,7 +422,7 @@ wrap将代理本地的`40000`端口
 
 更改代理端口：`warp-cli proxy port 40000`
 
-配置文件：`/var/lib/cloudflare-warp/settings.json`
+配置文件：`cd /var/lib/cloudflare-warp`
 
 查看代理IP：
 ```
