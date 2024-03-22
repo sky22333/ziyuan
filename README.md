@@ -379,3 +379,45 @@ filebrowser --config /home/config.json
 </details>
 
 ---
+
+
+<details>
+  <summary>服务器配置wrap</summary>
+    
+debian系统安装：
+[其他系统安装](https://pkg.cloudflareclient.com/)
+```
+curl -fsSL https://pkg.cloudflareclient.com/pubkey.gpg | sudo gpg --yes --dearmor --output /usr/share/keyrings/cloudflare-warp-archive-keyring.gpg
+```
+```
+echo "deb [signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] https://pkg.cloudflareclient.com/ $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/cloudflare-client.list
+```
+```
+sudo apt-get update && sudo apt-get install cloudflare-warp
+```
+注册客户端：
+```
+warp-cli registration new
+```
+
+开启代理模式：
+```
+warp-cli set-mode proxy
+```
+```
+开机自启代理：
+```
+warp-cli enable-always-on
+```
+wrap将代理本地的`40000`端口
+
+查看代理IP：
+```
+curl -x "socks5://127.0.0.1:40000" ipinfo.io
+```
+
+
+
+</details>
+
+---
