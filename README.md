@@ -420,7 +420,7 @@ warp-cli connect
 
 wrap将代理本地的`40000`端口
 
-更改代理端口：`warp-cli proxy port 9988`
+更改代理端口：`warp-cli proxy port 40000`
 
 配置文件：`/var/lib/cloudflare-warp/settings.json`
 
@@ -431,10 +431,19 @@ curl -x "socks5://127.0.0.1:40000" ipinfo.io
 
 
 
+配置系统代理：
+```
+export ALL_PROXY=socks5://127.0.0.1:40000
+```
+
+
+
 关闭wrap：
 ```
 warp-cli disconnect
 ```
+
+
 
 
 
