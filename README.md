@@ -422,9 +422,18 @@ wrap将代理本地的`40000`端口
 
 更改代理端口：`warp-cli proxy port 9988`
 
+配置文件：`/var/lib/cloudflare-warp/settings.json`
+
 查看代理IP：
 ```
 curl -x "socks5://127.0.0.1:40000" ipinfo.io
+```
+
+
+
+关闭wrap：
+```
+warp-cli disconnect
 ```
 
 
