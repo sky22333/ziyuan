@@ -403,7 +403,7 @@ sudo apt-get update && sudo apt-get install cloudflare-warp -y
 注册客户端：
 
 ```
-warp-cli registration new
+warp-cli registration new -y
 ```
 
 开启代理模式：
