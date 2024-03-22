@@ -412,11 +412,15 @@ warp-cli registration new
 warp-cli mode proxy
 ```
 
-开机自启代理：
+启动wrap：
 ```
-warp-cli enable-always-on
+warp-cli connect
 ```
+
+
 wrap将代理本地的`40000`端口
+
+更改代理端口：`warp-cli proxy port 9988`
 
 查看代理IP：
 ```
