@@ -384,9 +384,12 @@ filebrowser --config /home/config.json
 <details>
   <summary>服务器配置wrap</summary>
     
-debian系统安装：
+
 
 [其他系统安装](https://pkg.cloudflareclient.com/)
+
+debian系统安装：
+
 ```
 curl -fsSL https://pkg.cloudflareclient.com/pubkey.gpg | sudo gpg --yes --dearmor --output /usr/share/keyrings/cloudflare-warp-archive-keyring.gpg
 ```
