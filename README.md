@@ -431,11 +431,11 @@ curl -x "socks5://127.0.0.1:40000" ipinfo.io
 
 
 
-配置系统代理：
+开启全局代理：
 ```
 export ALL_PROXY=socks5://127.0.0.1:40000
 ```
-关闭系统代理：
+关闭全局代理：
 ```
 unset ALL_PROXY
 ```
