@@ -88,6 +88,10 @@ yum install curl wget git zip tar iptables lsof sudo -y
 ```
 wget -qO- git.io/besttrace | bash
 ```
+### 一键测速回程线路
+```
+curl https://raw.githubusercontent.com/zhanghanyun/backtrace/main/install.sh -sSf | sh
+```
 
 
 ###  一键测试流媒体解锁：
