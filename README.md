@@ -295,10 +295,9 @@ netsh wlan export profile folder=C:\ key=clear
 | 类型 | 名称 | 地址 |
 | :--- | :----: | :---: |
 | 服务器  | vmiss  |https://app.vmiss.com|
-| 服务器  | 艾云住宅  |https://iaclouds.com/cart.php|
 | SK5代理  | kookeey  |https://kookeey.com|
 | SK5代理 | ip2world  |https://www.ip2world.com|
-| 服务器  | evoxt住宅  |https://evoxt.com/pricing|
+| 服务器  | evoxt  |https://evoxt.com/pricing|
 | 服务器 | vultr  |https://www.vultr.com|
 | 服务器  | 美国无线流量  |https://my.frantech.ca/cart.php|
 | 服务器  | 越南家宽  |https://my.cloudfly.vn/cloud/server|
@@ -306,8 +305,6 @@ netsh wlan export profile folder=C:\ key=clear
 | 服务器  | 朝暮云 地区多  |https://zhaomu.com|
 | 服务器  | CC一刀机  |https://cloudcone.com|
 | 服务器  | RN二刀机  |https://my.racknerd.com|
-| 服务器  | 野草云建站机  |https://www.yecaoyun.com|
-| 服务器  | 便宜建站机  |https://www.anclouds.com|
 | 服务器  | hostvds一刀机  |https://hostvds.com|
 | 学习资料  | 网站合集  |https://theporndude.com/zh|
 | 学习资料  | AI画图  |https://pornpen.ai|
