@@ -175,16 +175,6 @@ sysctl net.ipv4.tcp_congestion_control
 
 
 
-
-
-###  科技lion的VPS工具箱
-
-
-```
-curl -sS -O https://raw.githubusercontent.com/kejilion/sh/main/kejilion.sh && chmod +x kejilion.sh && ./kejilion.sh
-```
-
-
 ###  人型自走bot乌班图脚本
 
 
@@ -196,11 +186,6 @@ wget https://raw.githubusercontent.com/TeamPGM/PagerMaid-Pyro/development/utils/
 使用该脚本会将 ```Pagermaid-Pyro``` 安装至 ```/var/lib/pagermaid``` 目录下。
 
 
-###  Hiddify面板(仅适用于乌班图系统)
-
-```
-sudo apt update&&sudo apt install -y curl&& sudo bash -c "$(curl -Lfo- https://raw.githubusercontent.com/hiddify/hiddify-config/main/common/download_install.sh)"
-```
 
 ### 久激活 Windows 系统和 Office 软件
 
