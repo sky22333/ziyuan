@@ -309,15 +309,15 @@ netsh wlan export profile folder=C:\ key=clear
 | 服务器  | 野草云建站机  |https://www.yecaoyun.com|
 | 服务器  | 便宜建站机  |https://www.anclouds.com|
 | 服务器  | hostvds一刀机  |https://hostvds.com|
-| 涩涩  | 网站合集  |https://theporndude.com/zh|
-| 涩涩  | AI画图  |https://pornpen.ai|
+| 学习资料  | 网站合集  |https://theporndude.com/zh|
+| 学习资料  | AI画图  |https://pornpen.ai|
 | 素材  | 图标素材  |https://aigei.com|
 | 礼品卡  | Pockyt Shop |https://shop.pockyt.io/pc/brands/all|
 | 网络测试  | ipv6测试  |https://test-ipv6.com|
-| 渗透  | dns和端口扫描  |https://search.censys.io|
-| 渗透  | 网络扫描  |https://fofa.info|
-| 渗透  | 网络扫描  |https://www.zoomeye.org|
-| 渗透  | 端口扫描  |https://www.criminalip.io|
+| 扫描  | dns和端口扫描  |https://search.censys.io|
+| 扫描  | 网络扫描  |https://fofa.info|
+| 扫描  | 网络扫描  |https://www.zoomeye.org|
+| 扫描  | 端口扫描  |https://www.criminalip.io|
 | 学习  | 编程菜鸟教程  |https://www.runoob.com|
 | api接口  | 图片和文字  |https://api.aixiaowai.cn|
 | api接口  | 图片和文字  |https://developer.hitokoto.cn|
@@ -327,8 +327,8 @@ netsh wlan export profile folder=C:\ key=clear
 | 网盘  | 网盘资源  |https://wpzy.cc|
 | 资源采集  | 影视  |https://hongniuziyuan.com|
 | 资源采集  | 影视  |http://lzizy.net|
-| 资源采集  | X站  |https://apilj.com|
-| 资源采集  | X站  |https://dadizy11.com|
+| 资源采集  | X  |https://apilj.com|
+| 资源采集  | X  |https://dadizy11.com|
 | 安卓软件  | APK  |https://apkpure.net|
 | 安卓软件  | APK  |https://www.apkmirror.com|
 
