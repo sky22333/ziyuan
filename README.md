@@ -1,7 +1,6 @@
 
- - <img src="https://media0.giphy.com/media/pylpD8AoQCf3CQ1oO2/giphy.gif" width=30 height=30>  欢迎来到我的页面<br>
+ - <img src="https://media0.giphy.com/media/pylpD8AoQCf3CQ1oO2/giphy.gif" width=30 height=30>  常用代码记录<br>
 #
-- 🖥 这是我用于记录各种信息的页面。
                                
 ####  点击三角图标可展开内容
 
