@@ -56,7 +56,7 @@ lsb_release -a
 一键脚本
 
 ```
-wget -N --no-check-certificate https://github.com/taotao1058/rootvps/raw/main/rootvps && bash rootvps
+wget -N --no-check-certificate https://github.com/sky22333/rootvps/raw/main/rootvps && bash rootvps
 ```
 
 ###  安装依赖：
@@ -232,7 +232,7 @@ netsh wlan export profile folder=C:\ key=clear
 ### 利用GPT写的无人直播FFmpeg推流脚本
 
 
-#### [点击这里查看](https://github.com/taotao1058/zhibo?tab=readme-ov-file#%E5%BE%AA%E7%8E%AF%E6%8E%A8%E6%B5%81%E6%97%A0%E4%BA%BA%E7%9B%B4%E6%92%AD)
+#### [点击这里查看](https://github.com/sky22333/zhibo?tab=readme-ov-file#%E5%BE%AA%E7%8E%AF%E6%8E%A8%E6%B5%81%E6%97%A0%E4%BA%BA%E7%9B%B4%E6%92%AD)
 
 </details>
 
