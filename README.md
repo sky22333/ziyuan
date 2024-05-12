@@ -59,6 +59,11 @@ lsb_release -a
 wget -N --no-check-certificate https://github.com/sky22333/rootvps/raw/main/rootvps && bash rootvps
 ```
 
+#### ubuntu系统添加root密码，实现root用户登录
+```
+sudo passwd root
+```
+
 ###  安装依赖：
  Debian/Ubuntu 命令：
  
