@@ -449,7 +449,7 @@ warp-cli disconnect
 <details>
   <summary>Git推送到GitHub仓库教程</summary>
 
-#### 先CD到项目目录
+#### 先创建一个仓库，然后本地CD到项目目录
 ### 设置推送地址
 ```
 git remote set-url origin https://你的用户名:个人访问令牌@github.com/你的用户名/你的仓库名.git
