@@ -446,3 +446,25 @@ warp-cli disconnect
 </details>
 
 ---
+<details>
+  <summary>Git推送到GitHub仓库教程</summary>
+
+
+### 设置推送地址
+```
+git remote set-url origin https://<你的用户名>:<个人访问令牌>@github.com/<你的用户名>/<你的仓库名>.git
+```
+### 添加并提交新的更改
+```
+git add .
+git commit -m "描述你的更改"
+```
+### 推送到仓库
+```
+git push origin main
+```
+`main`为分支名
+
+</details>
+
+---
