@@ -465,6 +465,11 @@ git push origin main
 ```
 `main`为分支名
 
+#### 操作完成后清除Git存储凭据
+```
+git config --global --unset credential.helper
+```
+
 </details>
 
 ---
