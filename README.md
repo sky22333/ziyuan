@@ -452,7 +452,7 @@ warp-cli disconnect
 #### 先CD到项目目录
 ### 设置推送地址
 ```
-git remote set-url origin https://<你的用户名>:<个人访问令牌>@github.com/<你的用户名>/<你的仓库名>.git
+git remote set-url origin https://你的用户名:个人访问令牌@github.com/你的用户名/你的仓库名.git
 ```
 ### 添加并提交新的更改
 ```
