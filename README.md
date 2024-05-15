@@ -452,6 +452,10 @@ warp-cli disconnect
 #### 先创建一个仓库，然后本地CD到项目目录
 ### 设置推送地址
 ```
+git config --global user.email "你的邮箱"
+git config --global user.name "你的用户名"
+```
+```
 git remote set-url origin https://你的用户名:个人访问令牌@github.com/你的用户名/你的仓库名.git
 ```
 ### 添加并提交新的更改
