@@ -352,35 +352,13 @@ netsh wlan export profile folder=C:\ key=clear
 支持实时管理liunx系统文件的项目
 
 安装：
-
 ```
 curl -fsSL https://raw.githubusercontent.com/filebrowser/get/master/get.sh | bash
 ```
 
-`home`目录下创建`config.json`配置文件：
-
+启动：
 ```
-{
-  "address": "0.0.0.0",
-  "port": 7777,
-  "log": "",
-  "database": "/home/filebrowser.db",
-  "root": "/",
-  "auth": true,
-  "users": [
-    {
-      "username": "admin",
-      "password": "admin",
-      "hash_method": "bcrypt"
-    }
-  ],
-  "commands": []
-}
-```
-
-运行：
-```
-filebrowser --config /home/config.json
+filebrowser -a 0.0.0.0 -r /
 ```
 
 设置—用户管理—用户编辑—增加文件管理命令`unzip tar chmod`
