@@ -9,8 +9,20 @@
 <details>
   <summary>VPS常用命令</summary>
 	
-	
- ### 3xui
+
+
+### 安装node环境
+```
+curl https://get.volta.sh | bash
+```
+```
+volta install node@16.0.0
+```
+切换node版本只需再次安装需要的版本即可自动更改
+
+
+
+### 3xui
 
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
