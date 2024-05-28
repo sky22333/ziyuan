@@ -25,7 +25,7 @@ source ~/.bashrc
 ```
 volta install node@16.0.0
 ```
-切换node版本只需再次安装需要的版本即可自动更改
+切换node版本只需再次安装需要的版本即可自动切换
 
 
 
