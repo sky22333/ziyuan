@@ -65,7 +65,9 @@ uname -a
 ```
 
 ####  查看系统版本
-
+```
+cat /etc/os-release
+```
 ```
 lsb_release -a
 ```
