@@ -32,7 +32,7 @@ volta install node@16.0.0
 ### 3xui
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/admin8800/3x-ui/main/install.sh)
 ```
 
 [项目地址](https://github.com/MHSanaei/3x-ui)
