@@ -505,6 +505,11 @@ git add 有冲突的文件路径
 git cherry-pick --continue
 ```
 ##### 然后就可以推送到远程仓库了
+本地dev分支推送到远程dev分支
+```
+git push origin refs/heads/dev:refs/heads/dev
+```
+
 （可选）放弃提交
 ```
 git cherry-pick --abort
