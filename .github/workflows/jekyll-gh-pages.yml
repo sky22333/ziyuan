@@ -1,4 +1,4 @@
-# 部署 Jekyll 到 GitHub Pages 的示例工作流
+# 部署 Jekyll
 name: 部署 Jekyll 到 GitHub Pages（预安装依赖）
 
 on:
