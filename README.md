@@ -473,6 +473,43 @@ git push origin main
 git config --global --unset credential.helper
 ```
 
+
+### 同步上游仓库某一个提交
+
+获取上游更新
+```
+git fetch upstream
+```
+
+### 确认上游仓库中是否包含目标提交
+```
+git branch -r --contains 提交哈希
+```
+
+### 使用 -m 选项进行同步指定的提交
+```
+git cherry-pick -m 1 提交哈希
+```
+这里的`-m 1`表示选择合并提交中的第一个父提交的更改。
+
+如果不是不是合并提交则去掉`-m 1`
+
+
+#### 如果有冲突则找到冲突文件修改
+告诉git冲突已经修改
+```
+git add 有冲突的文件路径
+```
+提交
+```
+git cherry-pick --continue
+```
+
+放弃提交
+```
+git cherry-pick --abort
+```
+
 </details>
 
 ---
