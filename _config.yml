@@ -3,9 +3,9 @@ description: Jekyll
 baseurl: "/ziyuan"
 url: "https://blog.52013120.xyz"
 theme: minima
-minima:
-  skin: solarized
 locale: "zh-CN"
+social_links:
+  - { platform: github,         user_url: "https://github.com/sky22333/ziyuan" }
 markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "with_toc_data", "tables", "highlight"]
