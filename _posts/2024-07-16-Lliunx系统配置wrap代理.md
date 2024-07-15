@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Liunx系统配置wrap代理"
-date: 2024-07-16 14:30:00 +0800
+date: 2024-07-16 01:30:00 +0800
 categories: [记录]
 tags: [代码]
 ---
