@@ -474,19 +474,19 @@ git config --global --unset credential.helper
 ```
 
 
-### 🎈同步上游仓库某一个提交
+## 🎈同步上游仓库某一个提交
 
-获取上游更新
+#### 1：获取上游更新
 ```
 git fetch upstream
 ```
 
-### 确认上游仓库中是否包含目标提交
+#### 2：确认上游仓库中是否包含目标提交
 ```
 git branch -r --contains 提交哈希
 ```
 
-### 使用 -m 选项进行同步指定的提交
+#### 3：使用 -m 选项进行同步指定的提交
 ```
 git cherry-pick -m 1 提交哈希
 ```
