@@ -3,6 +3,8 @@ description: Jekyll
 baseurl: "/ziyuan"
 url: "https://blog.52013120.xyz"
 theme: minima
+minima:
+  skin: solarized
 locale: "zh-CN"
 markdown: redcarpet
 redcarpet:
