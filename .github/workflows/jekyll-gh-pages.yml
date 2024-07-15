@@ -1,5 +1,5 @@
 # 自动部署Jekyll
-name: 部署 Jekyll 到 GitHub Pages（预安装依赖）
+name: 自动部署Jekyll
 
 on:
   # 推送到默认分支时触发
