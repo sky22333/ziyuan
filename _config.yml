@@ -6,6 +6,8 @@ theme: minima
 locale: "zh-CN"
 social_links:
   - { platform: github,         user_url: "https://github.com/sky22333/ziyuan" }
+header_pages:
+  - 关于.md
 markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "with_toc_data", "tables", "highlight"]
