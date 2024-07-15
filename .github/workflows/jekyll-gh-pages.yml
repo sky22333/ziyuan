@@ -1,4 +1,4 @@
-# 部署 Jekyll
+# 自动部署Jekyll
 name: 部署 Jekyll 到 GitHub Pages（预安装依赖）
 
 on:
