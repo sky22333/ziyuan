@@ -1,51 +1,51 @@
-# Sample workflow for building and deploying a Jekyll site to GitHub Pages
-name: Deploy Jekyll with GitHub Pages dependencies preinstalled
+# 部署 Jekyll 到 GitHub Pages 的示例工作流
+name: 部署 Jekyll 到 GitHub Pages（预安装依赖）
 
 on:
-  # Runs on pushes targeting the default branch
+  # 推送到默认分支时触发
   push:
     branches: ["main"]
 
-  # Allows you to run this workflow manually from the Actions tab
+  # 允许手动运行此工作流
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+# 设置 GITHUB_TOKEN 的权限以允许部署到 GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+# 允许只有一个并发部署任务，跳过排队在运行中的任务和最新排队的任务。
+# 不过，请不要取消正在运行的任务，因为我们希望允许这些生产部署任务完成。
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
 jobs:
-  # Build job
+  # 构建任务
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: 检出代码
         uses: actions/checkout@v4
-      - name: Setup Pages
+      - name: 设置 Pages 环境
         uses: actions/configure-pages@v5
-      - name: Build with Jekyll
+      - name: 使用 Jekyll 构建页面
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./
-          destination: ./_site
-      - name: Upload artifact
+          source: ./   # 指定 Jekyll 源文件路径，通常为当前目录
+          destination: ./_site   # 指定 Jekyll 构建生成的目标文件夹路径
+      - name: 上传生成的文件
         uses: actions/upload-pages-artifact@v3
 
-  # Deployment job
+  # 部署任务
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url }}  # 获取部署完成后的页面 URL
     runs-on: ubuntu-latest
-    needs: build
+    needs: build   # 在部署任务运行前，需要先完成构建任务
     steps:
-      - name: Deploy to GitHub Pages
+      - name: 部署到 GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
