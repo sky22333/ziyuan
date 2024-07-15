@@ -504,8 +504,8 @@ git add 有冲突的文件路径
 ```
 git cherry-pick --continue
 ```
-
-放弃提交
+##### 然后就可以推送到远程仓库了
+（可选）放弃提交
 ```
 git cherry-pick --abort
 ```
