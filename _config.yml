@@ -2,7 +2,7 @@ title: 代码记录
 description: Jekyll
 baseurl: "/ziyuan"
 url: "https://blog.52013120.xyz"
-theme: jekyll-theme-cayman
+theme: minima
 locale: "zh-CN"
 markdown: redcarpet
 redcarpet:
