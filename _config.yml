@@ -4,6 +4,8 @@ baseurl: "/ziyuan"
 url: "https://blog.52013120.xyz"
 theme: minima
 locale: "zh-CN"
+minima:
+  skin: dark
 header_pages:
   - 关于.md
 markdown: redcarpet
