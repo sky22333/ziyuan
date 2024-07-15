@@ -2,7 +2,7 @@ title: My Awesome Site
 description: This is my awesome site built with Jekyll.
 baseurl: "/ziyuan"
 url: "https://blog.52013120.xyz"
-theme: minimal-mistakes-jekyll
+theme: minima
 markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "with_toc_data", "tables", "highlight"]
