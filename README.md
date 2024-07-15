@@ -454,6 +454,10 @@ warp-cli disconnect
 ```
 git remote set-url origin https://你的用户名:个人访问令牌@github.com/你的用户名/你的仓库名.git
 ```
+### 确保本地分支是`main`
+```
+git checkout main
+```
 ### 添加并提交新的更改
 ```
 git add .
