@@ -75,6 +75,38 @@ cat /etc/os-release
 lsb_release -a
 ```
 
+
+#### 文件搜索
+按目录名称查找
+```
+find / -type d -iname "目录名" 2>/dev/null
+```
+
+按文件名称查找
+```
+find / -type f -name "*文件名*" 2>/dev/null
+```
+
+按文件大小查找
+```
+find / -type f -size +20M -exec ls -lh {} \; 2>/dev/null
+```
+
+#### 网络连接相关
+显示所有与主机建立连接的IP
+```
+ss -tn
+```
+
+#### 资源占用
+显示内存占用最大的10个进程
+```
+ps aux --sort=-%mem | head -n 10
+```
+`mem为内存，可改为cpu`
+
+
+
 ###  VPS开启root登录并且修改密码：
 
 一键脚本
@@ -145,6 +177,10 @@ sudo lsof -i -P -n
 ```
 ss -tuln
 ```
+```
+ss -tunp
+```
+
 ```
 lsof -i:端口号
 ```
