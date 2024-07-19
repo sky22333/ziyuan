@@ -97,6 +97,9 @@ find / -type f -size +20M -exec ls -lh {} \; 2>/dev/null
 ```
 ss -tn
 ```
+```
+ss -tunp
+```
 
 #### 资源占用
 显示内存占用最大的10个进程
