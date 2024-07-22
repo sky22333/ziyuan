@@ -333,6 +333,7 @@ netsh wlan export profile folder=C:\ key=clear
 | 电脑code  | Visual Studio Code  |https://code.visualstudio.com|
 | ios SSH  | ServerBox  |https://apps.apple.com/us/app/serverbox-status-tools/id1586449703|
 | ios SSH  | Termius |https://apps.apple.com/us/app/termius-terminal-ssh-client/id549039908|
+| ios SSH  | xTerminal |https://apps.apple.com/us/app/xterminal-ssh-terminal-shell/id1544728400|
 
 </details>
 
