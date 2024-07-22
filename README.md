@@ -489,10 +489,9 @@ warp-cli disconnect
   <summary>Git推送到GitHub仓库教程</summary>
 
 #### 先创建一个仓库，然后本地CD到项目目录
-### 设置推送地址
 
 ```
-git remote set-url origin https://你的用户名:个人访问令牌@github.com/你的用户名/你的仓库名.git
+git remote add origin git@github.com:用户名/仓库名.git
 ```
 ### 确保本地分支是`main`
 ```
@@ -509,6 +508,7 @@ git push origin main
 ```
 `main`为分支名
 
+输入用户名和key密钥即可推送完成
 #### 操作完成后清除Git存储凭据
 ```
 git config --global --unset credential.helper
