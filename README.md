@@ -378,6 +378,7 @@ netsh wlan export profile folder=C:\ key=clear
 | 资源采集  | X  |https://dadizy11.com|
 | 安卓软件  | APK  |https://apkpure.net|
 | 安卓软件  | APK  |https://www.apkmirror.com|
+| 阅后即焚  | 阅后即焚  |https://www.sixin.cc|
 
 </details>
 
