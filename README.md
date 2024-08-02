@@ -92,6 +92,11 @@ find / -type f -name "*文件名*" 2>/dev/null
 find / -type f -size +20M -exec ls -lh {} \; 2>/dev/null
 ```
 
+在整个文件系统中查找包含特定字符串的文件，并输出它们的路径
+```
+grep -r -l "关键字" /
+```
+
 #### 网络连接相关
 显示所有与主机建立连接的IP
 ```
@@ -294,7 +299,7 @@ netsh wlan export profile folder=C:\ key=clear
   <summary>无人直播推流脚本</summary>
 
 
-### 利用GPT写的无人直播FFmpeg推流脚本
+### FFmpeg无人直播推流脚本
 
 
 #### [点击这里查看](https://github.com/sky22333/zhibo?tab=readme-ov-file#%E5%BE%AA%E7%8E%AF%E6%8E%A8%E6%B5%81%E6%97%A0%E4%BA%BA%E7%9B%B4%E6%92%AD)
