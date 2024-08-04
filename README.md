@@ -122,7 +122,11 @@ ps aux --sort=-%mem | head -n 10
 bash <(wget -qO- https://github.com/sky22333/rootvps/raw/main/root.sh)
 ```
 
-
+### 设置主机名
+```
+sudo hostnamectl set-hostname wovow
+sudo bash -c 'echo "127.0.0.1 wovow" >> /etc/hosts'
+```
 
 ###  安装依赖：
  Debian/Ubuntu 命令：
