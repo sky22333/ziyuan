@@ -50,11 +50,13 @@ wget -N https://gitlab.com/fscarmen/warp/-/raw/main/menu.sh && bash menu.sh [opt
 warp [option] [lisence]
 ```
 
-###  一键安装docker
+
+###  一键安装Docker和Docker compose
 
 ```
-curl -fsSL https://get.docker.com | sh
+bash <(wget -qO- https://github.com/sky22333/shell/raw/main/kaiji.sh)
 ```
+
 
 ###  查看系统内核
 ```
@@ -117,13 +119,10 @@ ps aux --sort=-%mem | head -n 10
 一键脚本
 
 ```
-wget -N --no-check-certificate https://github.com/sky22333/rootvps/raw/main/rootvps && bash rootvps
+bash <(wget -qO- https://github.com/sky22333/rootvps/raw/main/root.sh)
 ```
 
-### ubuntu系统添加root密码，实现root用户登录
-```
-sudo passwd root
-```
+
 
 ###  安装依赖：
  Debian/Ubuntu 命令：
@@ -235,7 +234,7 @@ sudo fallocate -l 3G /swapfile && sudo chmod 700 /swapfile && sudo mkswap /swapf
 ###  一键开启bbr加速
 
 ```
-wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
+bash <(wget -qO- https://github.com/teddysun/across/raw/master/bbr.sh)
 ```
 
 ```
