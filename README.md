@@ -58,7 +58,7 @@ bash <(wget -qO- https://github.com/sky22333/shell/raw/main/kaiji.sh)
 ```
 
 
-###  查看系统内核
+###  查看系统架构
 ```
 dpkg --print-architecture
 ```
