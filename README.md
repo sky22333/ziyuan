@@ -277,7 +277,7 @@ wget https://raw.githubusercontent.com/TeamPGM/PagerMaid-Pyro/development/utils/
 
 
 
-### 久激活 Windows 系统和 Office 软件
+### 永久激活 Windows 系统和 Office 软件
 
 在 Windows 8.1/10/11 上，右键单击 Windows 开始菜单并 选择 PowerShell 或终端（非 CMD）
 
