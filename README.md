@@ -99,6 +99,9 @@ find / -type f -size +20M -exec ls -lh {} \; 2>/dev/null
 grep -r -l "关键字" /
 ```
 
+文件重命名命令：`mv`
+
+
 #### 网络连接相关
 显示所有与主机建立连接的IP
 
