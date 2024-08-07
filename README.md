@@ -139,7 +139,7 @@ sudo bash -c 'echo "127.0.0.1 wovow" >> /etc/hosts'
 sudo ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 ```
 
-查看当前时间(注意你与服务器之间的延迟)
+查看当前时间（注意你与服务器之间的延迟）
 ```
 date
 ```
