@@ -134,6 +134,17 @@ bash <(wget -qO- https://github.com/sky22333/rootvps/raw/main/root.sh)
 sudo hostnamectl set-hostname wovow
 sudo bash -c 'echo "127.0.0.1 wovow" >> /etc/hosts'
 ```
+### 设置时区为上海
+```
+sudo ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+```
+
+查看当前时间(注意你与服务器之间的延迟)
+```
+date
+```
+
+
 
 ###  安装依赖：
  Debian/Ubuntu 命令：
