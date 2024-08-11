@@ -158,11 +158,7 @@ date
  
 
 ```
-apt update
-``` 
-
-```
-apt install curl wget git zip tar iptables lsof vim sudo -y
+apt update && apt install curl wget git zip tar lsof vim sudo -y
 ```
 
 
@@ -173,7 +169,7 @@ yum update -y
 ``` 
 
 ```
-yum install curl wget git zip tar iptables lsof vim sudo -y
+yum install curl wget git zip tar lsof vim sudo -y
 ``` 
 
 ###  一键测试路由回程：
