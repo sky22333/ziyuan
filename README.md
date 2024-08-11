@@ -137,6 +137,10 @@ bash <(wget -qO- https://github.com/sky22333/rootvps/raw/main/root.sh)
 sudo hostnamectl set-hostname wovow
 sudo bash -c 'echo "127.0.0.1 wovow" >> /etc/hosts'
 ```
+或者
+```
+hostnamectl set-hostname localhost
+```
 ### 设置时区为上海
 ```
 sudo ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
