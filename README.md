@@ -320,6 +320,7 @@ netsh wlan export profile folder=C:\ key=clear
 | `ipconfig /release`     | 释放当前计算机的 IP 地址，断开当前网络连接。                  |
 | `ipconfig /renew`       | 请求 DHCP 服务器获取新的 IP 地址，恢复网络连接。              |
 | `ipconfig /flushdns`    | 清空 DNS 缓存，解决因缓存问题无法访问网站的问题。              |
+| `nslookup baidu.com`    | 查看网址用的什么dns进行解析。                                |
 
 
 
