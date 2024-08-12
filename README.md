@@ -311,6 +311,18 @@ netsh wlan show profile name="WiFi名称" key=clear
 netsh wlan export profile folder=C:\ key=clear
 ```
 
+- win系统网络故障常用命令，`win+x`打开终端管理员执行
+
+| 命令                   | 作用                                                         |
+|------------------------|--------------------------------------------------------------|
+| `netsh winsock reset`   | 重置 Windows 套接字（Winsock）目录，解决网络连接问题。         |
+| `netsh int ip reset`    | 重置 TCP/IP 协议栈，修复配置错误导致的网络问题。              |
+| `ipconfig /release`     | 释放当前计算机的 IP 地址，断开当前网络连接。                  |
+| `ipconfig /renew`       | 请求 DHCP 服务器获取新的 IP 地址，恢复网络连接。              |
+| `ipconfig /flushdns`    | 清空 DNS 缓存，解决因缓存问题无法访问网站的问题。              |
+
+
+
 
 </details>
 
