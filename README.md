@@ -608,3 +608,139 @@ git cherry-pick --abort
 </details>
 
 ---
+
+
+
+<details>
+  <summary>ansible批量管理主机运维工具</summary>
+
+## 🔵ansible批量管理主机运维工具
+
+### 1：安装并创建配置文件
+```
+sudo apt update
+sudo apt install ansible -y
+```
+```
+mkdir -p /etc/ansible && cd /etc/ansible && touch ansible.cfg hosts renwu.yml
+```
+
+> ansible.cfg: 配置Ansible的全局设置。
+> hosts: 定义要管理的主机和主机组。
+> renwu.yml（或playbook）: 描述要在主机上执行的任务和操作步骤。
+
+### 2：禁用被控主机密钥检查
+
+`ansible.cfg`中添加以下配置
+```
+[defaults]
+host_key_checking = False
+ansible_ssh_common_args = '-o StrictHostKeyChecking=no'
+```
+
+
+### 3：配置被控主机清单
+
+
+`hosts`中添加被控主机示例
+```
+[myservers]
+1 ansible_host=192.168.1.1 ansible_user=root ansible_port=22 ansible_ssh_pass=password1
+2 ansible_host=192.168.1.2 ansible_user=root ansible_port=22 ansible_ssh_pass=password2
+3 ansible_host=192.168.1.3 ansible_user=root ansible_port=22 ansible_ssh_pass=password3
+4 ansible_host=192.168.1.4 ansible_user=root ansible_port=22 ansible_ssh_pass=password4
+5 ansible_host=192.168.1.5 ansible_user=root ansible_port=22 ansible_ssh_pass=password5
+```
+
+### 4：使用ping模块测试所有被控主机连通性
+
+
+> (可选)查看所有被控机的信息 `ansible-inventory --list -i /etc/ansible/hosts`
+
+
+```
+ansible -m ping all
+```
+
+### 5：创建被控主机任务配置文件
+
+`renwu.yml`中添加任务示例
+
+```
+---
+# 定义要执行任务的主机组
+- hosts: myservers
+  become: yes  # 以管理员权限运行命令
+  tasks:
+    - name: 将Shell脚本复制到远程主机
+      copy:
+        # 本地脚本路径
+        src: /etc/ansible/script.sh  
+        # 远程主机上的目标路径
+        dest: /tmp/script.sh  
+        # 设置脚本权限为可执行
+        mode: '0755'  
+
+    - name: 在远程主机上执行Shell脚本
+      shell: /tmp/script.sh  # 在远程主机上执行脚本
+```
+
+
+或者直接执行远程脚本示例
+```
+---
+# 定义要执行任务的主机组
+- hosts: myservers
+  become: yes  # 以管理员权限运行命令
+  tasks:
+    - name: 更新包列表并安装所需的软件包
+      shell: |
+        apt update
+        apt install curl wget git zip tar lsof -y
+
+    - name: 在远程主机上执行Shell脚本
+      shell: bash <(wget -qO- https://github.com/sky22333/shell/raw/main/vmess-ws.sh)
+      args:
+        executable: /bin/bash  # 确保使用bash执行命令
+```
+
+### 6：运行任务，需要在`renwu.yml`同目录运行
+```
+ansible-playbook renwu.yml
+```
+
+---
+---
+
+#### 执行结果解释
+- **ok**: 表示在该主机上成功完成的任务数。
+- **changed**: 表示在该主机上有多少任务进行了更改（如文件被复制、脚本被执行）。
+- **unreachable**: 表示无法连接的主机数量。
+- **failed**: 表示任务失败的数量。
+- **skipped**: 表示被跳过的任务数量。
+- **rescued**: 表示在任务失败后被恢复的数量。
+- **ignored**: 表示被忽略的任务数量。
+
+
+#### 如果所有被控机端口和密码都一样
+`/etc/ansible/hosts`配置可以这样写
+```
+[all:vars]
+ansible_user=root
+ansible_ssh_pass=your_password
+ansible_port=22
+
+[myservers]
+1 ansible_host=192.168.1.101
+2 ansible_host=192.168.1.102
+3 ansible_host=192.168.1.103
+```
+
+
+
+
+
+
+</details>
+
+---
