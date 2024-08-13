@@ -615,6 +615,56 @@ git cherry-pick --abort
   <summary>ansible批量管理主机运维工具</summary>
 
 
+- ### ✨一键安装脚本
+  
+```
+bash <(wget -qO- https://github.com/sky22333/shell/raw/main/tmp/ansible.sh)
+```
+ 
+### 1：安装并创建配置文件
+```
+sudo apt update
+sudo apt install ansible -y
+```
+```
+mkdir -p /etc/ansible && cd /etc/ansible && touch ansible.cfg hosts renwu.yml
+```
+
+> `ansible.cfg` 配置Ansible的全局设置。
+
+> `hosts` 定义要管理的主机和主机组。
+
+> `renwu.yml（或playbook）` 描述要在主机上执行的任务和操作步骤。
+
+### 2：禁用被控主机密钥检查
+
+`ansible.cfg`中添加以下配置
+```
+[defaults]
+host_key_checking = False
+ansible_ssh_common_args = '-o StrictHostKeyChecking=no'
+```
+
+
+### 3：配置被控主机清单
+
+
+`hosts`中添加被控主机示例
+```
+[myservers]
+1 ansible_host=192.168.1.1 ansible_user=root ansible_port=22 ansible_ssh_pass=password1
+2 ansible_host=192.168.1.2 ansible_user=root ansible_port=22 ansible_ssh_pass=password2
+3 ansible_host=192.168.1.3 ansible_user=root ansible_port=22 ansible_ssh_pass=password3
+4 ansible_host=192.168.1.4 ansible_user=root ansible_port=22 ansible_ssh_pass=password4
+5 ansible_host=192.168.1.5 ansible_user=root ansible_port=22 ansible_ssh_pass=password5
+```
+
+### 4：使用ping模块测试所有被控主机连通性
+
+
+> (可选)查看所有被控机的信息 `ansible-inventory --list -i /etc/ansible/hosts`
+
+
 ```
 ansible -m ping all
 ```
