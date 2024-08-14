@@ -152,6 +152,30 @@ date
 ```
 
 
+### 校准同步系统时间
+- 安装
+```
+sudo apt-get install ntpdate
+```
+- 国外
+```
+sudo ntpdate -u time.google.com
+```
+或者
+```
+sudo ntpdate -u time.cloudflare.com
+```
+- 国内
+```
+sudo ntpdate -u ntp.aliyun.com
+```
+
+- 查看
+```
+timedatectl status
+```
+
+
 
 ###  安装依赖：
  Debian/Ubuntu 命令：
