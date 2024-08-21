@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS 端口敲门</title>
+  <style>
+    body, input {
+      font-family: monospace;
+    }
+  </style>
+</head>
+<body>
+  <h1>UDP 端口敲门</h1>
+  <div>
+    主机: <input id="txtHost" type="text" value="1.1.1.1">
+  </div>
+  <div>
+    端口: <input id="txtPort" type="number" value="30000">
+  </div>
+  <div>
+    数据: <input id="txtData" type="text" minlength="4" maxlength="256" value="OpenSesame">
+  </div>
+  <div>
+    <button id="btnKnock">敲门</button>
+  </div>
+  <div>
+  <h2>测试链接:</h2>
+  <div>
+    <a href="http://1.1.1.1:8080/hello" target="_blank">
+      http://1.1.1.1:8080/hello
+    </a>
+  </div>
+  <h2>服务器策略:</h2>
+  <pre>
+iptables \
+  -i eth0 \
+  -t raw --append PREROUTING \
+  -p tcp --dport 8080 --syn \
+  -m recent --name knocked ! --rcheck --seconds 600 \
+  -j DROP
+
+iptables \
+  -i eth0 \
+  -t raw --append PREROUTING \
+  -p udp --dport 30000 \
+  -m string --string "OpenSesame" --algo bm \
+  -m recent --name knocked --set \
+  -j DROP
+  </pre>
+  <script>
+  btnKnock.onclick = async function() {
+    var host = txtHost.value
+    var port = txtPort.value
+    var data = txtData.value
+
+    try {
+      await sendUDP(host, +port, data)
+    } catch (err) {
+      alert('错误:\n\n' + err)
+    }
+  }
+
+
+  async function sendUDP(host, port, data) {
+    const pc = new RTCPeerConnection({})
+
+    const sd = new RTCSessionDescription({
+      type: 'offer',
+      sdp: `\
+v=0
+o=- 1234567890 2 IN IP4 127.0.0.1
+s=-
+t=0 0
+a=group:BUNDLE data
+m=application 9 UDP/DTLS/SCTP webrtc-datachannel
+c=IN IP4 0.0.0.0
+a=ice-ufrag:${data}
+a=ice-pwd:0000000000000000000000
+a=ice-options:trickle
+a=fingerprint:sha-256 00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00
+a=setup:actpass
+a=mid:data
+a=sctp-port:5000
+a=max-message-size:262144
+`
+    })
+    await pc.setRemoteDescription(sd)
+
+    const answer = await pc.createAnswer()
+    const desc = new RTCSessionDescription(answer)
+    await pc.setLocalDescription(desc)
+
+    pc.addIceCandidate({
+      candidate: `candidate:842163049 1 udp 1677729535 ${host} ${port} typ srflx raddr 0.0.0.0 rport 0 generation 0 ufrag ${data} network-cost 999`,
+      sdpMLineIndex: 0,
+      sdpMid: 'data',
+    })
+
+    setTimeout(_ => pc.close(), 500)
+  }
+  </script>
+</body>
+</html>
