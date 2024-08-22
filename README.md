@@ -829,8 +829,27 @@ ansible_port=22
 
 
 
+</details>
+
+---
 
 
+
+
+
+<details>
+  <summary>Finalshell文件的一些信息</summary>
+
+- Finalshell是一个强大的国产SSH工具
+- finalshell的安装目录下的一些配置信息
+
+```
+/backup              # 服务器SSH连接备份文件夹
+/conn                # 服务器SSH连接配置文件夹
+config.json          # 基本配置文件
+knownhosts.json      # 服务器密钥
+tconfig.json         # 一些缓存
+```
 
 </details>
 
