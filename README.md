@@ -114,6 +114,10 @@ UDP 连接：
 ```
 ss -unp
 ```
+#### 切断除本机以外所有的SSH连接
+```
+sudo ss -tnp | grep ":22" | grep -v "自己的IP" | awk '{print $6}' | awk -F '[=,]' '{print $2}' | xargs -r sudo kill -9
+```
 
 #### 资源占用
 显示内存占用最大的10个进程
