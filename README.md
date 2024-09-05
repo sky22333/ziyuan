@@ -560,8 +560,14 @@ warp-cli disconnect
 <details>
   <summary>Git推送到GitHub仓库教程</summary>
 
-#### 先创建一个仓库，然后本地CD到项目目录
-连接远程仓库
+### 先在github创建一个仓库，然后本地CD到项目目录
+
+
+### 初始化本地仓库
+```
+git init
+```
+### 连接远程仓库
 ```
 git remote add origin git@github.com:用户名/仓库名.git
 ```
