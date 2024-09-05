@@ -571,6 +571,10 @@ git init
 ```
 git remote add origin git@github.com:用户名/仓库名.git
 ```
+### 创建并切换到`main`分支
+```
+git checkout -b main
+```
 ### 确保本地分支是`main`
 ```
 git checkout main
