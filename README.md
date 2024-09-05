@@ -593,6 +593,7 @@ git config --global --unset credential.helper
 ```
 git fetch upstream
 ```
+> 合并上游所有更新`git merge upstream/main` main为本地分支
 
 #### 2：确认上游仓库中是否包含目标提交
 ```
