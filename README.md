@@ -417,15 +417,15 @@ netsh wlan export profile folder=C:\ key=clear
 | 服务器  | vmiss  |https://app.vmiss.com|
 | SK5代理  | kookeey  |https://kookeey.com|
 | SK5代理 | ip2world  |https://www.ip2world.com|
-| 服务器  | evoxt  |https://evoxt.com/pricing|
+| SK5代理 | Omega  |https://www.omegaproxy.com/zh|
 | 服务器 | vultr  |https://www.vultr.com|
-| 服务器  | 美国无线流量  |https://my.frantech.ca/cart.php|
 | 服务器  | 越南家宽  |https://my.cloudfly.vn/cloud/server|
 | 服务器  | gigsgigs  |https://clientarea.gigsgigscloud.com|
-| 服务器  | 朝暮云 地区多  |https://zhaomu.com|
 | 服务器  | CC一刀机  |https://cloudcone.com|
 | 服务器  | RN二刀机  |https://my.racknerd.com|
 | 服务器  | hostvds一刀机  |https://hostvds.com|
+| 服务器  | 搬瓦工  |https://bandwagonhost.com|
+| 服务器  | DMIT  |https://www.dmit.io/?language=chinese|
 | 学习资料  | 网站合集  |https://theporndude.com/zh|
 | 学习资料  | AI画图  |https://pornpen.ai|
 | 素材  | 图标素材  |https://aigei.com|
