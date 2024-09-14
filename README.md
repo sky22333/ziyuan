@@ -385,6 +385,7 @@ netsh wlan export profile folder=C:\ key=clear
 | :--- | :----: | :---: |
 | 安卓代理  | v2rayNG  |https://github.com/2dust/v2rayNG/releases|
 | 安卓代理  | clash-meta  |https://github.com/MetaCubeX/ClashMetaForAndroid/releases|
+| 安卓代理  | NekoBox |https://github.com/Matsuridayo/NekoBoxForAndroid/releases|
 | Win代理  | clash-verge-rev  |https://github.com/clash-verge-rev/clash-verge-rev/releases|
 | Win代理  | v2rayN  |https://github.com/2dust/v2rayN/releases|
 | ios代理  | 小火箭  |https://apps.apple.com/us/app/shadowrocket/id932747118|
