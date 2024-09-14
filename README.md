@@ -452,7 +452,7 @@ netsh wlan export profile folder=C:\ key=clear
 | 支付  | 加密货币支付网关  |https://plisio.net/zh|
 | 软件  | 软件搜索和同类型推荐  |https://alternativeto.net|
 | 工具  | 在线Markdown编辑器  |https://markdown-editor.org|
-| 工具  | 文件分享  |https://wormhole.app|
+| 工具  | 文件匿名分享  |https://wormhole.app|
 
 </details>
 
