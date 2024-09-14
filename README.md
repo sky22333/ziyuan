@@ -428,8 +428,8 @@ netsh wlan export profile folder=C:\ key=clear
 | 服务器  | hostvds一刀机  |https://hostvds.com|
 | 服务器  | 搬瓦工  |https://bandwagonhost.com|
 | 服务器  | DMIT  |https://www.dmit.io/?language=chinese|
-| 学习资料  | 网站合集  |https://theporndude.com/zh|
-| 学习资料  | AI画图  |https://pornpen.ai|
+| X学习资料  | 网站合集  |https://theporndude.com/zh|
+| X学习资料  | AI画图  |https://pornpen.ai|
 | 素材  | 图标素材  |https://aigei.com|
 | 礼品卡  | Pockyt Shop |https://shop.pockyt.io/pc/brands/all|
 | 网络测试  | ipv6测试  |https://test-ipv6.com|
