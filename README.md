@@ -416,10 +416,10 @@ netsh wlan export profile folder=C:\ key=clear
     
 | 类型 | 名称 | 地址 |
 | :--- | :----: | :---: |
-| 服务器  | vmiss  |https://app.vmiss.com|
 | SK5代理  | kookeey  |https://kookeey.com|
 | SK5代理 | ip2world  |https://www.ip2world.com|
 | SK5代理 | Omega  |https://www.omegaproxy.com/zh|
+| 服务器  | vmiss  |https://app.vmiss.com|
 | 服务器 | vultr  |https://www.vultr.com|
 | 服务器  | 越南家宽  |https://my.cloudfly.vn/cloud/server|
 | 服务器  | gigsgigs  |https://clientarea.gigsgigscloud.com|
