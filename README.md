@@ -401,6 +401,7 @@ netsh wlan export profile folder=C:\ key=clear
 | 电脑SSH  | tabby  |https://github.com/Eugeny/tabby/releases|
 | 电脑SSH  | WindTerm  |https://github.com/kingToolbox/WindTerm/releases|
 | 电脑SSH  | FinalShell  |https://www.hostbuf.com/t/988.html|
+| 电脑SSH  | MobaXterm汉化版  |https://github.com/RipplePiam/MobaXterm-Chinese-Simplified/releases|
 | 电脑code  | vscode  |https://code.visualstudio.com|
 | 在线code  | 在线vscode  |https://vscode.dev/?vscode-lang=zh-cn|
 | ios SSH  | ServerBox  |https://apps.apple.com/us/app/serverbox-status-tools/id1586449703|
