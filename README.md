@@ -997,7 +997,7 @@ sudo snap refresh
 
 
 <details>
-  <summary>**MySQL和MariaDB数据库常用命令**</summary>
+  <summary>MySQL和MariaDB数据库常用命令</summary>
 
 
 
