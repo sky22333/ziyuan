@@ -1001,6 +1001,24 @@ sudo snap refresh
 
 ### MySQL和MariaDB常用命令
 
+| 数据库          | 操作                | 命令                                                      | 描述                                   |
+|-----------------|---------------------|-----------------------------------------------------------|----------------------------------------|
+| **MySQL**       | 更新软件包列表       | `sudo apt update`                                        | 更新可用软件包列表                      |
+|                 | 安装 MySQL 服务器    | `sudo apt install mysql-server`                           | 安装 MySQL 服务器                       |
+|                 | 启动 MySQL 服务      | `sudo systemctl start mysql`                              | 启动 MySQL 服务                         |
+|                 | 检查 MySQL 服务状态  | `sudo systemctl status mysql`                             | 检查 MySQL 服务的运行状态               |
+|                 | 运行安全安装脚本    | `sudo mysql_secure_installation`                           | 配置 MySQL 安全选项                     |
+|                 | 登录 MySQL          | `sudo mysql -u root -p`                                   | 登录 MySQL，输入 root 用户密码          |
+| **MariaDB**     | 更新软件包列表       | `sudo apt update`                                        | 更新可用软件包列表                      |
+|                 | 安装 MariaDB 服务器 | `sudo apt install mariadb-server`                         | 安装 MariaDB 服务器                     |
+|                 | 启动 MariaDB 服务   | `sudo systemctl start mariadb`                            | 启动 MariaDB 服务                       |
+|                 | 检查 MariaDB 服务状态 | `sudo systemctl status mariadb`                           | 检查 MariaDB 服务的运行状态             |
+|                 | 运行安全安装脚本    | `sudo mysql_secure_installation`                           | 配置 MariaDB 安全选项                   |
+|                 | 登录 MariaDB        | `sudo mysql -u root -p`                                   | 登录 MariaDB，输入 root 用户密码       |
+
+
+
+
 | 功能分类    | 命令                                                      | 描述                                                     |
 |-------------|------------------------------------------------------------|----------------------------------------------------------|
 | **登录数据库** | `mysql -u 用户名 -p`                                        | 登录 MySQL，使用指定的用户名，`-p` 会提示输入密码         |
