@@ -881,7 +881,7 @@ tconfig.json         # 一些缓存
 
 
 <details>
-  <summary>sanp和winget包管理器</summary>
+  <summary>snap和winget包管理器</summary>
 
 
 ## 常用liunx系统Snap包管理器文档
