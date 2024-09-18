@@ -1080,6 +1080,35 @@ sudo snap refresh
 | **打开数据库**  | `.open 数据库名.db`                                              | 打开或切换到另一个数据库                           |
 
 
+### PostgreSQL常用命令
+
+| 操作                       | 命令                                                                                           | 说明                                                                                      |
+|----------------------------|------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| **安装 PostgreSQL**         | `sudo apt update` <br> `sudo apt install postgresql postgresql-contrib`                        | 更新包管理器并安装 PostgreSQL 和相关插件                                                   |
+| **启动 PostgreSQL 服务**    | `sudo systemctl start postgresql`                                                             | 启动 PostgreSQL 服务                                                                      |
+| **重启 PostgreSQL 服务**    | `sudo systemctl restart postgresql`                                                           | 重启 PostgreSQL 服务                                                                      |
+| **停止 PostgreSQL 服务**    | `sudo systemctl stop postgresql`                                                              | 停止 PostgreSQL 服务                                                                      |
+| **检查 PostgreSQL 状态**    | `sudo systemctl status postgresql`                                                            | 检查 PostgreSQL 服务的当前状态                                                            |
+| **设置 PostgreSQL 开机启动**| `sudo systemctl enable postgresql`                                                            | 设置 PostgreSQL 随系统启动自动运行                                                        |
+| **切换到 postgres 用户**    | `sudo -i -u postgres`                                                                         | 切换到 PostgreSQL 管理员用户 `postgres`                                                   |
+| **进入 PostgreSQL shell**   | `psql`                                                                                        | 进入 PostgreSQL 的交互式命令行 shell                                                      |
+| **退出 PostgreSQL shell**   | `\q`                                                                                          | 退出 PostgreSQL shell                                                                     |
+| **查看数据库列表**          | `\l`                                                                                          | 显示当前 PostgreSQL 实例中的所有数据库                                                    |
+| **创建数据库**              | `CREATE DATABASE 数据库名;`                                                                   | 创建一个新数据库                                                                          |
+| **删除数据库**              | `DROP DATABASE 数据库名;`                                                                     | 删除指定的数据库                                                                          |
+| **查看表格列表**            | `\dt`                                                                                         | 显示当前数据库中的所有表格                                                                |
+| **创建表格**                | `CREATE TABLE 表格名 (列1 数据类型, 列2 数据类型, ...);`                                       | 在数据库中创建一个新表格，并定义其列和数据类型                                            |
+| **插入数据**                | `INSERT INTO 表格名 (列1, 列2, ...) VALUES (值1, 值2, ...);`                                   | 向表格中插入一条数据记录                                                                  |
+| **查询数据**                | `SELECT * FROM 表格名;`                                                                       | 从表格中查询所有数据                                                                      |
+| **创建用户**                | `CREATE USER 用户名 WITH PASSWORD '密码';`                                                    | 创建一个新用户，并为其设置密码                                                            |
+| **给用户授权**              | `GRANT ALL PRIVILEGES ON DATABASE 数据库名 TO 用户名;`                                         | 为指定的用户授权访问和操作指定数据库的所有权限                                            |
+| **删除用户**                | `DROP USER 用户名;`                                                                           | 删除一个指定的用户                                                                        |
+| **修改用户密码**            | `ALTER USER 用户名 WITH PASSWORD '新密码';`                                                   | 修改指定用户的密码                                                                        |
+| **备份数据库**              | `pg_dump 数据库名 > 备份文件名.sql`                                                           | 将指定数据库备份到一个 `.sql` 文件中                                                      |
+| **还原数据库**              | `psql 数据库名 < 备份文件名.sql`                                                              | 从备份的 `.sql` 文件还原数据库                                                            |
+
+
+
 
 </details>
 
