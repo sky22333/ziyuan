@@ -1090,7 +1090,7 @@ sudo snap refresh
 | **停止 PostgreSQL 服务**    | `sudo systemctl stop postgresql`                                                              | 停止 PostgreSQL 服务                                                                      |
 | **检查 PostgreSQL 状态**    | `sudo systemctl status postgresql`                                                            | 检查 PostgreSQL 服务的当前状态                                                            |
 | **设置 PostgreSQL 开机启动**| `sudo systemctl enable postgresql`                                                            | 设置 PostgreSQL 随系统启动自动运行                                                        |
-| **切换到 postgres 用户**    | `sudo -i -u postgres`                                                                         | 切换到 PostgreSQL 管理员用户 `postgres`                                                   |
+| **切换到 postgres 用户**    | `sudo -i -u postgres`                                                                         | 以 `postgres` 管理员用户登录                                                  |
 | **进入 PostgreSQL shell**   | `psql`                                                                                        | 进入 PostgreSQL 的交互式命令行 shell                                                      |
 | **退出 PostgreSQL shell**   | `\q`                                                                                          | 退出 PostgreSQL shell                                                                     |
 | **查看数据库列表**          | `\l`                                                                                          | 显示当前 PostgreSQL 实例中的所有数据库                                                    |
