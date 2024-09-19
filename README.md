@@ -287,9 +287,9 @@ sudo fallocate -l 3G /swapfile && sudo chmod 700 /swapfile && sudo mkswap /swapf
 ###  一键开启bbr加速
 
 ```
-bash <(wget -qO- https://github.com/teddysun/across/raw/master/bbr.sh)
+bash <(wget -qO- https://gitlab.com/yishijie/shell/raw/main/bbr.sh)
 ```
-
+查看
 ```
 sysctl net.ipv4.tcp_congestion_control
 ```
