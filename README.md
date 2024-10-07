@@ -161,17 +161,13 @@ date
 ```
 sudo apt-get install ntpdate
 ```
-- 国外
+
+- 配置时间服务器
 ```
-sudo ntpdate -u time.google.com
-```
-或者
-```
-sudo ntpdate -u time.cloudflare.com
-```
-- 国内
-```
-sudo ntpdate -u ntp.aliyun.com
+sudo ntpdate -u time.google.com          // google时间服务器
+sudo ntpdate -u time.cloudflare.com      // cloudflare时间服务器
+sudo ntpdate -u time.windows.com         // 微软时间服务器
+sudo ntpdate -u ntp.aliyun.com           // 阿里云时间服务器
 ```
 
 - 查看
