@@ -197,6 +197,17 @@ sudo sysctl -p
 
 
 
+### 更改系统语言
+```
+sudo nano /etc/locale.gen
+# zh_CN.UTF-8 UTF-8       // 取消这行注释
+sudo locale-gen
+sudo update-locale LANG=zh_CN.UTF-8
+sudo localectl set-locale LANG=zh_CN.UTF-8
+```
+
+
+
 ###  安装依赖：
  Debian/Ubuntu 命令：
  
