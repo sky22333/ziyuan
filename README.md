@@ -179,6 +179,22 @@ sudo ntpdate -u ntp.aliyun.com
 timedatectl status
 ```
 
+### 配置IPV4网络优先
+
+编辑配置文件
+```
+vim /etc/sysctl.conf
+```
+最后两行添加
+```
+net.ipv6.conf.all.disable_ipv6 = 1
+net.ipv6.conf.default.disable_ipv6 = 1
+```
+应用配置
+```
+sudo sysctl -p
+```
+
 
 
 ###  安装依赖：
