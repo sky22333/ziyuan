@@ -217,15 +217,15 @@ apt update && apt install curl wget git zip tar lsof vim sudo -y
 ```
 
 
- CentOS 命令：
+ apk包更新
+```
+apk update
+```
+apk包安装
 
 ```
-yum update -y
-``` 
-
+apk add curl wget vim zip
 ```
-yum install curl wget git zip tar lsof vim sudo -y
-``` 
 
 ###  一键测试路由回程：
 
