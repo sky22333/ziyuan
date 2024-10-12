@@ -174,7 +174,7 @@ sudo ntpdate -u ntp.aliyun.com           // 阿里云时间服务器
 timedatectl status
 ```
 
-### 配置IPV4网络优先
+### 禁用IPV6
 
 编辑配置文件
 ```
