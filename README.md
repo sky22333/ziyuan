@@ -1136,3 +1136,34 @@ sudo snap refresh
 </details>
 
 ---
+
+
+
+
+<details>
+  <summary>rsync文件传输</summary>
+
+| 选项         | 示例命令                                                 | 说明                                       |
+|--------------|--------------------------------------------------------|--------------------------------------------|
+| `-a`        | `rsync -av /source/ /destination/`                    | 归档模式，递归传输并保持文件属性            |
+| `-v`        | `rsync -av /source/ /destination/`                    | 详细输出，显示传输过程                      |
+| `-z`        | `rsync -avz /source/ /destination/`                   | 传输时压缩文件                             |
+| `-h`        | `rsync -avh /source/ /destination/`                   | 人性化输出，显示更易读的文件大小             |
+| `--progress` | `rsync -av --progress /source/ /destination/`         | 显示传输进度                              |
+| `-e`        | `rsync -av -e ssh /source/ root@192.168.9.1:/destination/` | 指定使用的远程 shell（如 ssh）              |
+| `--delete`   | `rsync -av --delete /source/ /destination/`           | 删除目标目录中源目录不存在的文件             |
+
+### 示例用法
+
+| 示例描述               | 示例命令                                                   | 说明                                       |
+|----------------------|----------------------------------------------------------|--------------------------------------------|
+| 本地文件同步           | `rsync -av /source/ /home/`      | 同步源目录中的文件到目标目录               |
+| 远程文件同步           | `rsync -av /source/ root@192.168.9.1:/home/` | 从本地同步到远程                            |
+| 从远程同步到本地       | `rsync -av root@192.168.9.1:/source/ /home/` | 从远程同步到本地                          |
+| 使用 SSH 进行安全传输 | `rsync -avz -e ssh /source/ root@192.168.9.1:/home/` | 使用 SSH 进行安全文件传输                  |
+| 删除目标目录中不存在的文件 | `rsync -av --delete /source/ /home/` | 在目标目录中删除源目录中不存在的文件        |
+
+
+</details>
+
+---
