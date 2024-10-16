@@ -672,6 +672,41 @@ git push origin refs/heads/dev:refs/heads/dev
 git cherry-pick --abort
 ```
 
+
+## 🎈合并有冲突的请求
+
+获取全部请求
+```
+git fetch origin 'refs/pull/*/head:refs/pull/origin/*'
+```
+切换到主分支
+```
+git checkout main
+```
+合并指定的请求（1为#后面的编号）
+```
+git merge refs/pull/origin/1
+```
+查看冲突
+```
+git status
+```
+> 将显示冲突的文件用`vim`打开，删除你不要的代码然后保存文件，或者`vscode`可视化选择。
+
+标记所有冲突已解决
+```
+git add .
+```
+完成合并
+```
+git commit -m "合并分支1"
+```
+推送
+```
+git push origin main
+```
+
+
 </details>
 
 ---
