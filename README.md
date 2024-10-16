@@ -701,7 +701,7 @@ git add .
 ```
 git commit -m "合并分支1"
 ```
-推送
+推送到`main`分支
 ```
 git push origin main
 ```
