@@ -1202,3 +1202,77 @@ sudo snap refresh
 </details>
 
 ---
+
+
+
+
+
+<details>
+  <summary>启用SSH密钥连接</summary>
+
+
+### 服务器配置SSH密钥登录
+
+> 适用于`Debian`和`Ubuntu`系统
+
+
+
+### 生成`ED25519`类型的 SSH 密钥对
+
+>生成的`id_ed25519`文件为私钥，使用这个连接服务器。
+>`id_ed25519.pub`为公钥
+>一路回车即可
+
+
+```
+ssh-keygen -t ed25519
+```
+进入存储 SSH 密钥的目录
+```
+cd ~/.ssh
+
+# 将公钥内容追加到authorized_keys文件中，用于验证登录权限。
+cat id_ed25519.pub >> authorized_keys
+
+# 增加权限
+chmod 600 authorized_keys
+chmod 700 ~/.ssh
+```
+
+
+### 修改SSH配置文件
+```
+sudo vim /etc/ssh/sshd_config
+```
+找到对应的配置然后修改
+```
+# 修改SSH服务端口
+Port 2222
+
+# 启用公钥认证
+PubkeyAuthentication yes
+
+# 指定存储公钥的文件位置
+AuthorizedKeysFile .ssh/authorized_keys
+
+# 禁止使用空密码登录
+PermitEmptyPasswords no
+
+# 禁止使用密码认证登录
+PasswordAuthentication no
+```
+
+
+
+重启SSH服务
+```
+sudo systemctl restart ssh
+```
+
+
+
+
+
+</details>
+
+---
