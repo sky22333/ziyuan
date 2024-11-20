@@ -1219,24 +1219,16 @@ sudo snap refresh
 
 ### 生成`ED25519`类型的 SSH 密钥对
 
->生成的`id_ed25519`文件为私钥，使用这个连接服务器。
->`id_ed25519.pub`为公钥，
->一路回车即可
+>生成的`id_ed25519`文件为私钥，使用这个连接服务器，`id_ed25519.pub`为公钥，一路回车即可
 
 
 ```
 ssh-keygen -t ed25519
 ```
-进入存储 SSH 密钥的目录
+进入存储SSH密钥的目录，并配置公钥
 ```
 cd ~/.ssh
-
-# 将公钥内容追加到authorized_keys文件中，用于验证登录权限。
 cat id_ed25519.pub >> authorized_keys
-
-# 增加权限
-chmod 600 authorized_keys
-chmod 700 ~/.ssh
 ```
 
 
@@ -1252,7 +1244,7 @@ Port 2222
 # 启用公钥认证
 PubkeyAuthentication yes
 
-# 指定存储公钥的文件位置
+# 指定存储公钥的文件位置(增加此项)
 AuthorizedKeysFile .ssh/authorized_keys
 
 # 禁止使用空密码登录
@@ -1268,7 +1260,6 @@ PasswordAuthentication no
 ```
 sudo systemctl restart ssh
 ```
-
 
 
 
