@@ -51,7 +51,7 @@ warp [option] [lisence]
 ```
 
 
-### 安装Docker（如果安装困难可以选择手动安装）
+### 安装Docker
 官方安装脚本：
 
 ```
@@ -70,6 +70,8 @@ bash <(curl -sSL https://gitee.com/SuperManito/LinuxMirrors/raw/main/DockerInsta
 curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
 ```
 
+
+---
 
 ###  查看系统架构
 ```
