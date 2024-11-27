@@ -32,13 +32,13 @@ volta install node@16.0.0
 
 
 
-### 3xui
+### xui安装脚本
 
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/admin8800/x-ui/main/install.sh)
 ```
 
-[项目地址](https://github.com/MHSanaei/3x-ui)
+[3x-ui地址](https://github.com/MHSanaei/3x-ui)
 
 ###  一键wrap
 
@@ -51,10 +51,23 @@ warp [option] [lisence]
 ```
 
 
-###  一键安装Docker和Docker compose
+### 安装Docker（如果安装困难可以选择手动安装）
+官方安装脚本：
 
 ```
-bash <(wget -qO- https://github.com/sky22333/shell/raw/main/kaiji.sh)
+curl -fsSL https://get.docker.com | sh
+```
+>会以插件的形式自动安装`docker compose`    输入`docker compose version`查看版本
+
+国内安装脚本  [(说明)](https://linuxmirrors.cn/other/)
+
+```
+bash <(curl -sSL https://gitee.com/SuperManito/LinuxMirrors/raw/main/DockerInstallation.sh)
+```
+
+或者使用阿里云安装源
+```
+curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
 ```
 
 
